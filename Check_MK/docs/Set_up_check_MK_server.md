@@ -6,7 +6,6 @@ Dựng check_MK lên 1 OS Centos 7
 
 IP Planning
 
-![](../image/MK_setup_2.png)
 
 
 ## 2. Cài đặt Check_Mk server
