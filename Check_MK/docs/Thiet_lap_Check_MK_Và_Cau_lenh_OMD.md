@@ -97,5 +97,5 @@ Trang không được bật lên thì sẽ hiện thỉ trang thái này :
 
 Nếu không có trang web :
 
-![](../image/MK_omd_12.png)
+![](../image/mk_omd_12.png)
 
