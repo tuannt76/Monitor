@@ -83,3 +83,12 @@ setenforce 0
 Sau khi cài đặt truy cập vào trình duyệt : chorome, firefox,... 
 
 
+**Đăng nhập và truy cập vào bằng user như trên**  :
+
+![](../image/MK_setup_3.png)
+
+**Giao diện check_Mk 2.0**
+
+![](../image/MK_setup_4.png)
+
+
