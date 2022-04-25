@@ -19,11 +19,11 @@ IP Planning
 
 Tải file cài đặt check_MK 2.0:
 
-`wget https://checkmk.com/support/2.0.0p23/check-mk-raw-2.0.0p23-el7-38.x86_64.rpm`
+```wget https://checkmk.com/support/2.0.0p23/check-mk-raw-2.0.0p23-el7-38.x86_64.rpm```
 
 Cài đặt CheckMK
 
-`yum install -y check-mk-raw-2.0.0p23-el7-38.x86_64.rpm`
+```yum install -y check-mk-raw-2.0.0p23-el7-38.x86_64.rpm```
 
 Tạo một site 
 
@@ -42,13 +42,17 @@ Khởi động site
 ```
 su - TuanNT
 htpasswd -m etc/htpasswd cmkadmin
+```
 
+`
 #Nhập mật khẩu cho user
 New password:
 Re-type new password:
 Updating password for user cmkadmin
 
-```
+`
+
+
 
 Quay lại User **root** để thực hiện tiếp câu lệnh (`Ctrl` + `d`)
 
