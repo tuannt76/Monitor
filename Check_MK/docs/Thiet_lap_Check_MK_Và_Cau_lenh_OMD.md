@@ -22,7 +22,7 @@ Omd Crate TuanNT
 ```
 ![](../image/MK_omd_2.png)
 
-Sau khi tạo xong srart mysite :
+Sau khi tạo xong start mysite :
 
 ``` 
 Omd start mysite
