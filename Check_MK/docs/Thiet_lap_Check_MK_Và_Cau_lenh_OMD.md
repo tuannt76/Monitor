@@ -2,7 +2,7 @@
 
 - [1.Thiết lập cơ bản Check_MK :](#1thiết-lập-cơ-bản-check_mk-)
   - [1.1 Lệnh cho người dùng ROOT server](#11-lệnh-cho-người-dùng-root-server)
-  - [1.2 Các option uesr thực hiện trong Site :](#12-các-option-uesr-thực-hiện-trong-site-)
+  - [1.2 Các option user thực hiện trong Site :](#12-các-option-user-thực-hiện-trong-site-)
   - [1.3 Các option kiểm tra ``Stop`` và ``reload`` và ``status``...](#13-các-option-kiểm-tra-stop-và-reload-và-status)
   - [1.4 Các thông báo lỗi](#14-các-thông-báo-lỗi)
 
@@ -34,7 +34,7 @@ Omd start TuanNT
 ```
 ![](../image/MK_omd_3.png)
 
-## 1.2 Các option uesr thực hiện trong Site :
+## 1.2 Các option user thực hiện trong Site :
 
 Sudo vào Site 
 
@@ -91,11 +91,11 @@ Omd stop
 ## 1.4 Các thông báo lỗi 
 
 
-Không được bật lên thì sẽ hiện thỉ trang thái này :
+Trang không được bật lên thì sẽ hiện thỉ trang thái này :
 
 ![](../image/MK_omd_11.png)
 
-nếu không có trang web :
+Nếu không có trang web :
 
 ![](../image/MK_omd_12.png)
 
