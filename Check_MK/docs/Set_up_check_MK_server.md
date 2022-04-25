@@ -35,7 +35,7 @@ Tạo một site
 
 `omd create  my_site `
 
-Ví dụ :
+**Ví dụ** :
 
 ``` 
 omd create TuanNT
