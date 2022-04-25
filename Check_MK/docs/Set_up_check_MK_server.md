@@ -13,7 +13,7 @@ IP Planning
 
 #### Cài đặt ``wget``
 
-`yum install -y epel-release wget`
+```yum install -y epel-release wget```
 
 #### Download file cài đặt
 
