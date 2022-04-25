@@ -1,13 +1,15 @@
 ## 1.Mô hình triển khai
 
+Dựng check_MK lên 1 OS Centos 7
+
+![](../image/MK_setup_1.png)
+
+IP Planning
+
+![](../image/MK_setup_2.png)
 
 
-IPPlanning
-
-
-
-
-## 2. Thiết lập ban đầu
+## 2. Cài đặt Check_Mk server
 
 #### Cài đặt ``wget``
 
@@ -25,16 +27,20 @@ Cài đặt CheckMK
 
 Tạo một site 
 
-`omd create cmk`
+`omd create  my_site `
+
+Ví dụ :
+
+``` omd create TuanNT```
 
 Khởi động site
 
-`omd start cmk`
+```omd start TuanNT```
 
 Đổi mật khẩu cho User **cmkadmin**
 
 ```
-su - cmk
+su - TuanNT
 htpasswd -m etc/htpasswd cmkadmin
 
 #Nhập mật khẩu cho user
@@ -60,3 +66,7 @@ sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 setenforce 0
 ```
+
+Sau khi cài đặt truy cập vào trình duyệt : chorome, firefox,... 
+
+
