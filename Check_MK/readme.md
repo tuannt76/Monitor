@@ -13,4 +13,4 @@
 
 1.[set_Up_check_MK_server](docs/CheckMK.md)
 
-2.[Hướng_dẫn_cài_đạt_agent_của_check_MK](docs/Hướng_dẫn_cài_đặt_agent_của_checkmk_trên_centos%207.md)
+2.[Hướng_dẫn_cài_đặt_agent_của_check_MK](docs/Hướng_dẫn_cài_đặt_agent_của_checkmk_trên_centos%207.md)
