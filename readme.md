@@ -10,7 +10,7 @@
 6. 
 <h2>Thực hành Check_MK</h2>
 
-1.[set_Up_check_MK_server](Check_MK/docs/CheckMK.md)
+1.[Cài_đặt_check_MK_server](Check_MK/docs/CheckMK.md)
 
 2.[Hướng_dẫn_cài_đạt_agent_của_check_MK](Check_MK/docs/Hướng_dẫn_cài_đặt_agent_của_checkmk_trên_centos%207.md)
 # <h2>**Ghi chép Zabbix**</h2>
