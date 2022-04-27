@@ -1,23 +1,23 @@
 # Cài đặt agent của Check_MK trên CentOS-7
 
 - [Cài đặt agent của Check_MK trên CentOS-7](#cài-đặt-agent-của-check_mk-trên-centos-7)
-  - [1. Mô hình mạng](#1-mô-hình-mạng)
-  - [2. Các bước thực hiện](#2-các-bước-thực-hiện)
+  - [**1. Mô hình mạng**](#1-mô-hình-mạng)
+  - [**2. Các bước thực hiện**](#2-các-bước-thực-hiện)
 
-## 1. Mô hình mạng  
+## **1. Mô hình mạng** 
 
 
 Mô hình mạng :
 
-
+![](../image/agent_0.png)
 
 
 
 IPplanning:
 
+![](../image/agnet_2.png)
 
-
-## 2. Các bước thực hiện 
+## **2. Các bước thực hiện**
 
 > **thực hiện trên máy Check_MK server :**
 
@@ -64,13 +64,14 @@ Bước 3 :Dùng gói wget download agent ở bước 1
 ```
 wget http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p23-1.noarch.rpm
 ```
-
+![](../image/agnet_3.png)
 
 Bước 4 : Cấp quyền thực thi cho file vừa download 
 
 ```
 chmod +x check-mk-agent-2.0.0p23-1.noarch.rpm
 ```
+![](../image/agnet_4.png)
 
 Bước 5 : Cài đặt agent
 
@@ -123,6 +124,7 @@ only_from      = 192.168.76.71
 disable        = 0
 port           = 6556
 ```
+![](../image/agnet_6.png)
 
 Bước 10 : Kiểm tra port mặc định của Check_MK sử dụng để giám sát được chưa
 
