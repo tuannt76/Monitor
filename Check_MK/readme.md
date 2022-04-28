@@ -3,7 +3,7 @@
 
 <h1> Zabbix </h1>
 
-<img src= https://i.imgur.com/8UzUbok.png align=right width=50%>
+<img src= https://i.imgur.com/8UzUbok.png align=right width=25%>
 
 - `Checkmk` là phần mềm được phát triển bằng Python và C ++ để giám sát Cơ sở hạ tầng CNTT. Nó được sử dụng để giám sát máy chủ, ứng dụng, mạng, cơ sở hạ tầng đám mây, vùng chứa, lưu trữ, cơ sở dữ liệu và cảm biến môi trường.
 
