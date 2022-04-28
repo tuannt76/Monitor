@@ -2,6 +2,8 @@
 
 <h2>Lý thuyết Check_MK</h2>
 
+<img src= https://i.imgur.com/8UzUbok.png align=right width=25%>
+
 1. [Ragios](Check_MK/docs/Ragios.md)
 2. [Tổng_quan_Check_MK](Check_MK/docs/CheckMK.md)
 3. [Thiết_lập_cơ_bản_và_Câu_lệnh_Check_Mk](Check_MK/docs/Thiet_lap_Check_MK_Và_Cau_lenh_OMD.md)
