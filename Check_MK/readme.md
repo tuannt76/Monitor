@@ -20,6 +20,6 @@
 
 <h2>Thực hành Check_MK</h2>
 
-1.[set_Up_check_MK_server](docs/Set_up_check_MK_server.md)
+1.[Cài_đặt_check_MK_server](docs/Set_up_check_MK_server.md)
 
 2.[Hướng_dẫn_cài_đặt_agent_của_check_MK](docs/Hướng_dẫn_cài_đặt_agent_của_checkmk_trên_centos%207.md)
