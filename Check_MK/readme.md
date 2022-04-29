@@ -25,4 +25,11 @@
 2.[Hướng dẫn cài đặt agent của check MK](docs/Hướng_dẫn_cài_đặt_agent_của_checkmk_trên_centos%207.md)
 
 3.[Hướng dẫn add host để check MK giám sát](docs/Hướng_dẫn_add_host_để_check_mk.md)
-4.
+
+4.[Giám sát host HTTP](docs/Giam_sat_host_HTTP.md)
+
+5.[Giám sát Port TCP](docs/Giám_sát_Port_TCP.md)
+
+6.[Giám sát dịch vụ MySQL](docs/Giám_sát_dịch_vụ_MySQL.md)
+
+7.[Giám sát dịch vụ Apache](docs/Giám_sát_dịch_vụ_Apache.md)

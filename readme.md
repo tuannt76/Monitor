@@ -9,7 +9,9 @@
 3. [Thiết lập cơ bản và Câu lệnh Check_Mk](Check_MK/docs/Thiet_lap_Check_MK_Và_Cau_lenh_OMD.md)
 4. [Giao Diện Check_MK](Check_MK/docs/Giao_dien_check_MK_(chuc_nang_nhiem_vu).md)
 5. 
-6. 
+
+
+
 <h2>Thực hành Check_MK</h2>
 
 1.[Cài đặt check_MK server](Check_MK/docs/Set_up_check_MK_server.md)
@@ -17,6 +19,16 @@
 2.[Hướng dẫn cài đặt agent của check_MK](Check_MK/docs/Hướng_dẫn_cài_đặt_agent_của_checkmk_trên_centos%207.md)
 
 3.[Hướng dẫn add host để check MK giám sát](Check_MK/docs/Hướng_dẫn_add_host_để_check_mk.md)
+
+4.[Giám sát host HTTP](Check_MK/docs/Giam_sat_host_HTTP.md)
+
+5.[Giám sát Port TCP](Check_MK/docs/Giám_sát_Port_TCP.md)
+
+6.[Giám sát dịch vụ MySQL](Check_Mk/docs/Giám_sát_dịch_vụ_MySQL.md)
+
+7.[Giám sát dịch vụ Apache](Check_MK/docs/Giám_sát_dịch_vụ_Apache.md)
+
+
 # <h2>**Ghi chép Zabbix**</h2>
 
 1.  [Zabbix](Zabbix/docs/Zabbix.md)
