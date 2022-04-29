@@ -1,78 +1,95 @@
 
-Thực hiện hướng dẫn add host để check_Mk có thể giám sát :
+
 
 
 # Hướng dẫn add host để Check_MK giám sát
 
-Làm thế nào để add thêm một host. Để làm được điều này máy muốn giám sát phải được download và cài đặt Agent của Check_MK.
+Trước khi add thêm host để check_MK có thể giám sát thì **máy muốn được giám sát sẽ phải được download và cài đặt Agent của máy giám sát** (ở đây máy giam sát là Check_MK server) .
+
+Link hướng dẫn cài ``Agent`` của checkMK vào máy cần được giám sát :
+
+https://github.com/tuannt76/Monitoring/blob/main/Check_MK/docs/H%C6%B0%E1%BB%9Bng_d%E1%BA%ABn_c%C3%A0i_%C4%91%E1%BA%B7t_agent_c%E1%BB%A7a_checkmk_tr%C3%AAn_centos%207.md
+
+
+
+Bài viết dưới đây sẽ hướng dẫn add host để check_Mk có thể giám sát :
+
 
 Đăng nhập vào Check_MK và làm theo hướng dẫn
 
-### Tạo host
+### Các bước để ADD host 
 
-* Chọn **Hosts** ở mục SETTING 
-* Chọn **New host**
+**<h2>1. Chọn Hosts ở mục SETTING**</h2>
+![Imgur](https://i.imgur.com/hc469Vs.png)
+**<h2>2. Chọn Add host**</h2>
 
-![Imgur]()
+![Imgur](https://i.imgur.com/Do3r2RA.png)
 
-* Điền thông tin của host muốn giám sát bao gồm tên địa chỉ IP của chúng. Sau đó lưu và đến service 
+
 
 Điền tên cho host mới:
 
-![Imgur]()
+Nhập tên host và địa chỉ IP của host mới :
 
-Nhập địa chỉ IP của host mới
+![Imgur](https://i.imgur.com/SNF5l70.png)
 
-![Imgur]()
+**<h2>3.Lưu và test thử:**</h2>
 
-Lưu và test thử:
-
-![Imgur]()
+![Imgur](https://i.imgur.com/NAKxK5g.png)
 
 Ping và agent hoàn thành là OK:
 
-![Imgur]()
 
-Save & go to Services 
+**<h2>4.Save & go to Services**</h2> 
 
-![Imgur]()
+![Imgur](https://i.imgur.com/FFxtUNy.png)
 
-* Đi vào bước quyết định giám sát những Service nào. Nếu muốn giám sát tất cả những Service mà check_mk phát hiện được hãy chọn Monitor không thì hãy chọn disable. Còn nếu bạn muốn loại bỏ hay giám sát 1 service riêng lẻ nào đó hãy chọn dấu X hoặc dấu tích
 
-1: Tích để tích tất cả các Service mà check_mk tìm thấy
+**<h2>5. Chọn  tất cả các Service mà check_mk tìm thấy**</h2>
 
-Monitor để giám sát
+![Imgur](https://i.imgur.com/EqMZCKx.png)
 
-![Imgur]()
+Hoặc chọn từng Service lẻ mà muốn giám sát :
 
-Hoặc chọn Service mà muốn giám sát và chọn Monitor để giám sát
+![Imgur](https://i.imgur.com/Orugiw3.png)
 
-![Imgur]()
 
-Chọn **Changes**
+Sau khi ấn chọn tất cả hoặc chọn 1 vài dịch vụ giám sát ta thấy các dịch vụ đã đươc giám sát ở dưới đây :
 
-![Imgur]()
+![Imgur](https://i.imgur.com/zDgTjAJ.png)
+
+**<h2>6.Chọn **Changes****</h2>
+
+![Imgur](https://i.imgur.com/Ny0hW8Z.png)
 
 Chọn **Activate afected**, để kích hoạt các service.
 
-![Imgur]()
+![Imgur](https://i.imgur.com/7wgglem.png)
 
-Nếu các service không khởi động được:
+**<h2>7.Hoàn thành quá trình thêm các service, Ta vào mục all host để xem quá trình check_Mk giám sát :**</h2>
 
-![Imgur]()
+![Imgur](https://i.imgur.com/2uSeb4P.png)
 
-Click vào option:
 
-![Imgur]()
+Các host đang được giám sát( ở đây chỉ có 1 host ta vừa thêm vào) :
 
-Chọn reschedule check
+![Imgur](https://i.imgur.com/9r0Abcp.png)
 
-![Imgur]()
+Biểu thị các thông số `State`, `OK`,`Cr` đã được nhắc tới ở các bài trước(các thuật ngữ cơ bản trong Agent)  :
+
+**<h2>8.Nếu các service không khởi động được:**</h2>
+
+![Imgur](https://i.imgur.com/DAqTmJh.png)
+
+![Imgur](https://i.imgur.com/aAuqfw4.png)
+
+Click vào option và Chọn reschedule check :
+
+![Imgur](https://i.imgur.com/eTuNsCX.png)
+
 
 Như vậy đã hoàn thành add host và service cho Check_mk
 
-
-
-
-![Imgur]()
+Các dịch vụ đã được giám sát 
+![Imgur](https://i.imgur.com/WQ44rOE.png)
 
