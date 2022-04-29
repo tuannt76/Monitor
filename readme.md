@@ -14,7 +14,7 @@
 
 1.[Cài_đặt_check_MK_server](Check_MK/docs/Set_up_check_MK_server.md)
 
-2.[Hướng_dẫn_cài_đạt_agent_của_check_MK](Check_MK/docs/Hướng_dẫn_cài_đặt_agent_của_checkmk_trên_centos%207.md)
+2.[Hướng_dẫn_cài_đặt_agent_của_check_MK](Check_MK/docs/Hướng_dẫn_cài_đặt_agent_của_checkmk_trên_centos%207.md)
 # <h2>**Ghi chép Zabbix**</h2>
 
 1.  [Zabbix](Zabbix/docs/Zabbix.md)

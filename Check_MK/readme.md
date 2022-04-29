@@ -1,7 +1,7 @@
 # <h1>**Ghi chép Check_MK**</h1>
 
 
-<h1> Zabbix </h1>
+<h1> Check_MK </h1>
 
 <img src= https://i.imgur.com/8UzUbok.png align=right width=25%>
 

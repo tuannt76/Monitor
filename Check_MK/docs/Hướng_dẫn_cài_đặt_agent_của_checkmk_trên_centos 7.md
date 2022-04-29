@@ -9,20 +9,20 @@
 
 Mô hình mạng :
 
-![](../image/agent_0.png){ width=50% }
+![](../image/agent_0.png)
 
 
 
 IPplanning:
 
-![](../image/agnet_2.png){ width=50% }
+![](../image/agnet_2.png)
 
 ## **2. Các bước thực hiện**
 
 > **thực hiện trên máy Check_MK server :**
 
 
-Bước 1 : Tìm agent phù hợp cho máy Client
+**<h2>Bước 1 : Tìm agent phù hợp cho máy Client</h2>**
 
 Tại máy Check_MK server tìm agent phù hợp cho CentOS-7. Bản Agent phù hợp với CentOS-7 phải có đuôi file là `.rpm`
 
@@ -48,7 +48,7 @@ http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p23-1.noarch.rpm
 
 > **Thực hiện trên máy clinet CentOS 7 :**
 
-Bước 2: Cài gói wget(nếu cài rồi bỏ qua bước này) :
+**<h2>Bước 2: Cài gói wget(nếu cài rồi bỏ qua bước này) :**</h2>
 
 
 ```
@@ -59,21 +59,21 @@ yum install -y wget
 Note : wget là package dùng để tải package bằng link download về máy
 
 
-Bước 3 :Dùng gói wget download agent ở bước 1
+**<h2>Bước 3 :Dùng gói wget download agent ở bước 1**</h2>
 
 ```
 wget http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p23-1.noarch.rpm
 ```
 ![](../image/agnet_3.png)
 
-Bước 4 : Cấp quyền thực thi cho file vừa download 
+**<h2>Bước 4 : Cấp quyền thực thi cho file vừa download**</h2>
 
 ```
 chmod +x check-mk-agent-2.0.0p23-1.noarch.rpm
 ```
 ![](../image/agnet_4.png)
 
-Bước 5 : Cài đặt agent
+**<h2>Bước 5 : Cài đặt agent**</h2>
 
 ```
 rpm -ivh check-mk-agent-2.0.0p23-1.noarch.rpm
@@ -85,7 +85,7 @@ or
 dpkg -i check-mk-agent-2.0.0p23-1.noarch.deb
 ```
 
-Bước 6 : Cài đặt xinetd
+**<h2>Bước 6 : Cài đặt xinetd**</h2>
 
 ```
 yum install xinetd -y
@@ -98,42 +98,47 @@ apt-get install xinetd
 ```
 
 
-Bước 7 : Khởi động xinetd
+**<h2>Bước 7 : Khởi động xinetd**</h2>
 
 ```
 systemctl start xinetd
 systemctl enable xinetd
 ```
 
-Bước 8 : Cài đặt net-tools để kiểm tra các Port trên Client
+**<h2>Bước 8 : Cài đặt net-tools để kiểm tra các Port trên Client**</h2>
 
 ```
 yum install -y net-tools
 ```
 
-Bước 9 : Mở port trên client để có thể giao tiếp với Check_MK server
+**<h2>Bước 9 : Mở port trên client để có thể giao tiếp với Check_MK server**</h2>
 
 ```
 vi /etc/xinetd.d/check_mk
 ```
 
-mở file tìm đến các dòng và sửa các thông số sau :
+Mở file tìm đến các dòng và sửa các thông số sau :
+
+Gõ `setnu` và trỏ đến các dòng 8,31,38
 
 ```
 only_from      = 192.168.76.71
 disable        = 0
 port           = 6556
 ```
+
+**192.168.76.1** : là địa chỉ máy server Check_MK
+
 ![](../image/agnet_6.png)
 
-Bước 10 : Kiểm tra port mặc định của Check_MK sử dụng để giám sát được chưa
+**<h2>Bước 10 : Kiểm tra port mặc định của Check_MK sử dụng để giám sát**</h2>
 
 ```
 # netstat -npl | grep 6556
 tcp6       0      0 :::6556                 :::*                    LISTEN      1/systemd`
 ```
 
-Bước 11 : Mở port trên firewall 
+**<h2>Bước 11 : Mở port trên firewall </h2>**
 
 ```
  firewall-cmd --add-port=6556/tcp --permanent
@@ -145,12 +150,16 @@ ufw allow 6556/tcp
 ufw reload
 ```
 
-Bước 12 : Tắt SELinux
+**<h2>Bước 12 : Tắt SELinux**</h2>
 
-`setenforce 0`
+```
+setenforce 0
+```
 
 
 Thực hiện xong quá trình cài đặt agent của Check_MK trên CentOS-7. Bài tiếp theo tiến hành add host clinet vào Check_MK để thực hiện việc giám sát.
 
 Link hướng dẫn add host để checkmk giám sát :
+
+https://github.com/tuannt76/Monitoring/blob/main/Check_MK/docs/H%C6%B0%E1%BB%9Bng_d%E1%BA%ABn_add_host_%C4%91%E1%BB%83_check_mk.md
 
