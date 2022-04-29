@@ -9,13 +9,13 @@
 
 Mô hình mạng :
 
-![](../image/agent_0.png)
+![](../image/agent_0.png){ width=50% }
 
 
 
 IPplanning:
 
-![](../image/agnet_2.png)
+![](../image/agnet_2.png){ width=50% }
 
 ## **2. Các bước thực hiện**
 
