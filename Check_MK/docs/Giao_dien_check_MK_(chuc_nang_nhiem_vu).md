@@ -33,7 +33,9 @@ Trong menu Trợ giúp, bạn sẽ tìm thấy phiên bản và phiên bản ch�
 
 Thanh điều hướng được hoàn thành ở phái dưới cùng của Sidebar (cho phép bạn ẩn hoặc hiển thị thanh bên bằng cách chỉ cần nhấp vào nó) và ở trên cùng bởi biểu tượng Checkmk. Nhấp vào biểu tượng luôn đưa bạn trở lại trang tổng quan mặc định được hiển thị trên trang chnhs
 
-2.1 Menu màn hình
+
+
+## 2.1 Menu màn hình
 
 Trong menu này, bạn sẽ tìm thấy các công cụ sẽ cung cấp cho bạn câu trả lời cho các câu hỏi giám sát của bạn. Menu được chia nhỏ theo các chủ đề. Bạn sẽ tìm thấy các mục menu được liệt kê bên dưới mỗi chủ đề:
 
@@ -46,7 +48,7 @@ các option :
 5
 6
 
-2.6 Menu người dùng
+ Menu người dùng
 
 Trong menu `User`, bạn có thể thay đổi cài đặt các nhân hợp lệ cho tài khoản người dùng của mình :
 
