@@ -15,7 +15,7 @@ Hình ảnh sau đây cho thấy trang bắt đầu của Chekmk, bạn có th�
 
 2.Thanh điều hướng
 
-<img src= https://i.imgur.com/BhjWaLm.png align=left height= 600 px>
+<img src= https://i.imgur.com/BhjWaLm.png align=left height= 550 px>
 
 Với thanh điều hướng ở bên trái và các biểu tượng trong đó, bạn đưa ra các quyết định cơ bản về những gì Checkmk sẽ làm cho bạn :
 
