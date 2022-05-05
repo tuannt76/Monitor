@@ -36,11 +36,11 @@ Hình ảnh sau đây cho thấy trang bắt đầu của Chekmk, bạn có th�
 
 ### 2.2 Các option bên dưới thanh điều hướng
 
-![Imgur](https://i.imgur.com/7uNyhPN.png)
+![Imgur](https://i.imgur.com/GEAu4Wb.png)
 
-Ở trên cùng bên phải của menu, bạn sẽ thấy tên người dùng hiện tại (cmkadmin) và vai trò(admin) được chỉ định cho người dùng này. Trong menu này, bạn có thể thay đổi mật khẩu, đăng xuất khỏi giao diện Checkmk và cá nhân hoá hồ sơ của mình. Có thể tìm thấy tổng quan về các cài đặt cá nhận có sẵn trong chương trên menu Người dùng.
+Trong **User** Ở trên cùng bên phải của menu, bạn sẽ thấy tên người dùng hiện tại (cmkadmin) và vai trò(admin) được chỉ định cho người dùng này. Trong menu này, bạn có thể thay đổi mật khẩu, đăng xuất khỏi giao diện Checkmk và cá nhân hoá hồ sơ của mình. Có thể tìm thấy tổng quan về các cài đặt cá nhận có sẵn trong chương trên menu Người dùng.
 
-Trong menu Trợ giúp, bạn sẽ tìm thấy phiên bản và phiên bản chẹcmk hiện đang được sử dung và một số mục nhập mà bạn có thể gọi ra tài liệu và thông tin- bên trong Checkmk hoặc bên ngoài. 
+Trong **Help**, bạn sẽ tìm thấy phiên bản và phiên bản chẹcmk hiện đang được sử dung và một số mục nhập mà bạn có thể gọi ra tài liệu và thông tin- bên trong Checkmk hoặc bên ngoài. 
 
 Thanh điều hướng được hoàn thành ở phái dưới cùng của Sidebar (cho phép bạn ẩn hoặc hiển thị thanh bên bằng cách chỉ cần nhấp vào nó) và ở trên cùng bởi biểu tượng Checkmk. Nhấp vào biểu tượng luôn đưa bạn trở lại trang tổng quan mặc định được hiển thị trên trang chnhs
 
