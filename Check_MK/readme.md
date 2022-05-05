@@ -14,7 +14,7 @@
 1. [Ragios](./docs/Ragios.md)
 2. [Tổng quan Check MK](./docs/CheckMK.md)
 3. [Thiết lập cơ bản và Câu lệnh Check Mk](./docs/Thiet_lap_Check_MK_Và_Cau_lenh_OMD.md)
-4. [Giao Diện Check MK](./docs/Giao_dien_check_MK_(chuc_nang_nhiem_vu).md)
+4. [Giao Diện Check MK](./docs/Giao_dien_check_MK.md)
 5. 
 
 
