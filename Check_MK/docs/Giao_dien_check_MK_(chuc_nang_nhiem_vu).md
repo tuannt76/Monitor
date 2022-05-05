@@ -19,6 +19,7 @@ Hình ảnh sau đây cho thấy trang bắt đầu của Chekmk, bạn có th�
 
 - Với thanh điều hướng ở bên trái và các biểu tượng trong đó, bạn đưa ra các quyết định cơ bản về những gì Checkmk sẽ làm cho bạn :
 
+### 2.1 Các option bên trên thanh điều hướng
 <img src = https://imgur.com/Mj2mtyd.png align=left height= 140 px >
 
 
@@ -31,7 +32,13 @@ Hình ảnh sau đây cho thấy trang bắt đầu của Chekmk, bạn có th�
 Đằng sau ba biểu tượng này là các menu ít nhiều mở rôngj, cái gọi là 'memnu lớn' hoặc menu biểu tượng
 
 
-Ở cuối thanh điều hướng, trong menu người dung, bạn sẽ tìm thấy các mục nhập áp dụng cho tài khoản người dùng checkmk của mình. Ở trên cùng bên phải của menu, bạn sẽ thấy tên người dùng hiện tại (cmkadmin) và vai trò(admin) được chỉ định cho người dùng này. Trong menu này, bạn có thể thay đổi mật khẩu, đăng xuất khỏi giao diện Checkmk và cá nhân hoá hồ sơ của mình. Có thể tìm thấy tổng quan về các cài đặt cá nhận có sẵn trong chương trên menu Người dùng.
+Ở cuối thanh điều hướng, trong menu người dung, bạn sẽ tìm thấy các mục nhập áp dụng cho tài khoản người dùng checkmk của mình. 
+
+### 2.2 Các option bên dưới thanh điều hướng
+
+![Imgur](https://i.imgur.com/7uNyhPN.png)
+
+Ở trên cùng bên phải của menu, bạn sẽ thấy tên người dùng hiện tại (cmkadmin) và vai trò(admin) được chỉ định cho người dùng này. Trong menu này, bạn có thể thay đổi mật khẩu, đăng xuất khỏi giao diện Checkmk và cá nhân hoá hồ sơ của mình. Có thể tìm thấy tổng quan về các cài đặt cá nhận có sẵn trong chương trên menu Người dùng.
 
 Trong menu Trợ giúp, bạn sẽ tìm thấy phiên bản và phiên bản chẹcmk hiện đang được sử dung và một số mục nhập mà bạn có thể gọi ra tài liệu và thông tin- bên trong Checkmk hoặc bên ngoài. 
 
