@@ -19,7 +19,7 @@ Hình ảnh sau đây cho thấy trang bắt đầu của Chekmk, bạn có th�
 
 - Với thanh điều hướng ở bên trái và các biểu tượng trong đó, bạn đưa ra các quyết định cơ bản về những gì Checkmk sẽ làm cho bạn :
 
-<img src = https://imgur.com/Mj2mtyd.png align=left height= 120 px >
+<img src = https://imgur.com/Mj2mtyd.png align=left height= 140 px >
 
 
 **Monitor** -  Giám sát
