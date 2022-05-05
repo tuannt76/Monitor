@@ -8,6 +8,9 @@
       - [2.1.3 Thanh Setup](#213-thanh-setup)
     - [2.2 Các option bên dưới thanh điều hướng](#22-các-option-bên-dưới-thanh-điều-hướng)
   - [3. Các Trang chính hay theo dõi](#3-các-trang-chính-hay-theo-dõi)
+    - [3.1 ALL host](#31-all-host)
+    - [3.2 Trang dashboard(trang tổng quan)](#32-trang-dashboardtrang-tổng-quan)
+    - [3.5 Overview](#35-overview)
 - [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
 # Giao diện người dùng check_MK
@@ -135,21 +138,21 @@ Thanh điều hướng được hoàn thành ở phái dưới cùng của Sideb
 
 ## 3. Các Trang chính hay theo dõi 
 
-3.1 ALL host
+### 3.1 ALL host
 
 ![Imgur](https://i.imgur.com/haG9lhz.png)
 
 
 - Chứa thông tin tất cả các host mà Check_Mk đang giám sát bao gồm các trạng thái và các dịch vụ check_MK đang giám sát.
 
-3.2 Trang dashboard(trang tổng quan)
+### 3.2 Trang dashboard(trang tổng quan)
 
 ![Imgur](https://i.imgur.com/ecHQXiP.png)
 
 Trang tổng quan cho phép bạn thêm sửa các hoạt động cần giám sát theo ý muốn của mình.
 
 
-3.5 Overview
+### 3.5 Overview
 
 ![Imgur](https://i.imgur.com/3QvtW8W.png)
 
