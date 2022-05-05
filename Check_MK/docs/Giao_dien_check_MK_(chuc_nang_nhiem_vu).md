@@ -7,6 +7,7 @@
       - [2.1.2 Thanh Customize](#212-thanh-customize)
       - [2.1.3 Thanh Setup](#213-thanh-setup)
     - [2.2 Các option bên dưới thanh điều hướng](#22-các-option-bên-dưới-thanh-điều-hướng)
+    - [3. Các Trang chính hay theo dõi](#3-các-trang-chính-hay-theo-dõi)
 - [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
 # Giao diện người dùng check_MK
@@ -64,43 +65,49 @@ Chú thích :
 
 **Overview**
 
-1. Main dashboard :
-2. All host :
-3. Service search :
-4. Network topology :
-5. Host groups :
-6. Service groups :
-7. Sheduled downtimes :
-8. Comments :
-9. Host & service problems :
+1. Main dashboard :bảng điều khiển chính  
+2. All host : Tất cả các máy chủ
+3. Host search : tìm kiếm 1 host
+4. Service search : TÌm kiếm máy chủ lưu trữ
+5. Network topology : Cấu trúc mạng
+6. Host groups : Nhóm host 
+7. Service groups : nhóm dịch vụ
+8. Sheduled downtimes : thời gian ngừng hoạt động
+9. Comments : 
+
 
 **Problems**
 
-10. Host problems :
-11. stale services :
-12. Alert Statistics :
-13. Host & service ebents :
-14. Host & Service History :
-15. Downtime history :
+10. Host & service problems :  các vấn đề liên quan đến máy chủ và dịch vụ
+11. Host problems : sự cố máy chủ
+12. Service problems: sự cố dịch vụ
+13. stale services :  dịch vụ stale
+14. Alert Statistics : Thống kê cảnh báo 
+
+
 
 **History**
 
-16. Search history :
-17. Search time graphs :
-18. Search perofmance data :
-19. Service check durations :
-20. Recently changed services :
+15. Host & service ebents : sự kiện host và dịch vụ
+16. 
+17. Host & Service History : log host và dịch vụ  
+18. Downtime history : lịch sử thời gian downtime 
+19. Search history : tìm kiếm lịch sử
+20. Search time graphs :Đồ thị thời gian tìm kiếm
+21. Search perofmance data : tìm kiếm dữ liệu hiệu suất
+22. Service check durations : thời lượng kiểm tra dịch vụ
+23. Recently changed services :Các dịch vụ đã thay đổi gần đây 
 
 
-**System**
+**System** : 
 
 
 
-**Event Console**
+**Event Console** :
 
 
 
-**Inventory**
+**Inventory** :
 
 
 
@@ -122,9 +129,11 @@ Trong **User** Ở trên cùng bên phải của menu, bạn sẽ thấy tên ng
 Thanh điều hướng được hoàn thành ở phái dưới cùng của Sidebar (cho phép bạn ẩn hoặc hiển thị thanh bên bằng cách chỉ cần nhấp vào nó) và ở trên cùng bởi biểu tượng Checkmk. Nhấp vào biểu tượng luôn đưa bạn trở lại trang tổng quan mặc định được hiển thị trên trang chnhs
 
 ![Imgur](https://i.imgur.com/5qdxlBJ.png)
-Bảng thiết lập và ghi chú :
 
-3. Các Trang chính hay theo dõi 
+
+
+
+### 3. Các Trang chính hay theo dõi 
 
 3.1 ALL host
 
@@ -135,11 +144,10 @@ Bảng thiết lập và ghi chú :
 3.4 Sidebar
 
 3.5 Overview
+
 3.6 Bookmarks
+
 3.7 Master control
-
-
-
 
 
 # Tài liệu tham khảo 
