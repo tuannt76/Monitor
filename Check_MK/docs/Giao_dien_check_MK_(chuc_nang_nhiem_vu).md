@@ -3,7 +3,9 @@
   - [1. Giới thiệu](#1-giới-thiệu)
   - [2.Thanh điều hướng](#2thanh-điều-hướng)
     - [2.1 Các option bên trên thanh điều hướng](#21-các-option-bên-trên-thanh-điều-hướng)
-      - [2.1 Thanh monitor](#21-thanh-monitor)
+      - [2.1.1 Thanh monitor](#211-thanh-monitor)
+      - [2.1.2 Thanh Customize](#212-thanh-customize)
+      - [2.1.3 Thanh Setup](#213-thanh-setup)
     - [2.2 Các option bên dưới thanh điều hướng](#22-các-option-bên-dưới-thanh-điều-hướng)
 - [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
@@ -45,7 +47,7 @@ Hình ảnh sau đây cho thấy trang bắt đầu của Chekmk, bạn có th�
 
 
 
-#### 2.1 Thanh monitor
+#### 2.1.1 Thanh monitor
 
 Trong **monitor**, bạn sẽ tìm thấy các công cụ sẽ cung cấp cho bạn câu trả lời cho các câu hỏi giám sát của bạn. Menu được chia nhỏ theo các chủ đề. Bạn sẽ tìm thấy các mục menu được liệt kê bên dưới mỗi chủ đề:
 
@@ -63,6 +65,9 @@ Các option :
 5
 6
 
+#### 2.1.2 Thanh Customize
+
+#### 2.1.3 Thanh Setup
 
 ### 2.2 Các option bên dưới thanh điều hướng
 
