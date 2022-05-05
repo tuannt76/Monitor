@@ -56,14 +56,53 @@ Trong **monitor**, bạn sẽ tìm thấy các công cụ sẽ cung cấp cho b�
 
 
 Các option :
+
+
 ![Imgur](https://i.imgur.com/vshtq71.png)
 
-1 
-2
-3
-4
-5
-6
+Chú thích :
+
+**Overview**
+
+1. Main dashboard :
+2. All host :
+3. Service search :
+4. Network topology :
+5. Host groups :
+6. Service groups :
+7. Sheduled downtimes :
+8. Comments :
+9. Host & service problems :
+
+**Problems**
+
+10. Host problems :
+11. stale services :
+12. Alert Statistics :
+13. Host & service ebents :
+14. Host & Service History :
+15. Downtime history :
+
+**History**
+
+16. Search history :
+17. Search time graphs :
+18. Search perofmance data :
+19. Service check durations :
+20. Recently changed services :
+
+
+**System**
+
+
+
+**Event Console**
+
+
+
+**Inventory**
+
+
 
 #### 2.1.2 Thanh Customize
 
