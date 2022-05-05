@@ -17,15 +17,19 @@ Hình ảnh sau đây cho thấy trang bắt đầu của Chekmk, bạn có th�
 
 <img src= https://i.imgur.com/BhjWaLm.png align=left height= 520 px>
 
-Với thanh điều hướng ở bên trái và các biểu tượng trong đó, bạn đưa ra các quyết định cơ bản về những gì Checkmk sẽ làm cho bạn :
+- Với thanh điều hướng ở bên trái và các biểu tượng trong đó, bạn đưa ra các quyết định cơ bản về những gì Checkmk sẽ làm cho bạn :
 
-Giám sát - Bản thân việc giám sát
+<img src = https://imgur.com/Mj2mtyd.png align=left height= 120 px >
 
-Tuỳ chỉnh - Để tuỳ chỉnhcacs phần tử giao diện hữu ích cho việc giám sát
 
-Thiết lập - Để thiết lập các đối tượng được giám sát 
+**Monitor** -  Giám sát
 
-Đằng sau ba biểu tượng này là các menu ít nhiều mở rôgj, cái gọi là 'memnu lớn' hoặc menu biểu tượng, có các mục nhập được chia thành nhiều chủ đề-ví dụ: trong menu Cài đặt trong chủ đề Máy chủ, bạn sẽ tìm thấy các mục để định cấu hình máy chủ, nhóm máy chủ, thẻ máy chủ lưu trữ và các quy tắc danh riêng cho máy chủ lưu trữ.
+**Cumstomize** - Để tuỳ chỉnh các phần giao diện cho việc giám sát
+
+**Setup** - Để thiết lập các đối tượng được giám sát 
+
+Đằng sau ba biểu tượng này là các menu ít nhiều mở rôngj, cái gọi là 'memnu lớn' hoặc menu biểu tượng
+
 
 Ở cuối thanh điều hướng, trong menu người dung, bạn sẽ tìm thấy các mục nhập áp dụng cho tài khoản người dùng checkmk của mình. Ở trên cùng bên phải của menu, bạn sẽ thấy tên người dùng hiện tại (cmkadmin) và vai trò(admin) được chỉ định cho người dùng này. Trong menu này, bạn có thể thay đổi mật khẩu, đăng xuất khỏi giao diện Checkmk và cá nhân hoá hồ sơ của mình. Có thể tìm thấy tổng quan về các cài đặt cá nhận có sẵn trong chương trên menu Người dùng.
 
@@ -38,6 +42,9 @@ Thanh điều hướng được hoàn thành ở phái dưới cùng của Sideb
 ## 2.1 Menu màn hình
 
 Trong menu này, bạn sẽ tìm thấy các công cụ sẽ cung cấp cho bạn câu trả lời cho các câu hỏi giám sát của bạn. Menu được chia nhỏ theo các chủ đề. Bạn sẽ tìm thấy các mục menu được liệt kê bên dưới mỗi chủ đề:
+
+
+![Imgur](https://i.imgur.com/DBqZc5x.png)
 
 các option :
 
