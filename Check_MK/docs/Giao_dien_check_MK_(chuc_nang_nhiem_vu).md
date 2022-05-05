@@ -1,7 +1,16 @@
-Giao diện người dùng 
+
+- [Giao diện người dùng check_MK](#giao-diện-người-dùng-check_mk)
+  - [1. Giới thiệu](#1-giới-thiệu)
+  - [2.Thanh điều hướng](#2thanh-điều-hướng)
+    - [2.1 Các option bên trên thanh điều hướng](#21-các-option-bên-trên-thanh-điều-hướng)
+      - [2.1 Thanh monitor](#21-thanh-monitor)
+    - [2.2 Các option bên dưới thanh điều hướng](#22-các-option-bên-dưới-thanh-điều-hướng)
+- [Tài liệu tham khảo](#tài-liệu-tham-khảo)
+
+# Giao diện người dùng check_MK
 
 
-1. Giới thiệu
+## 1. Giới thiệu
 
 Giao diện người dùng đồ hoạ (GUI) của CheckMK có 2 chức năng :
 - Nó hiển thị trạng thái hiện tại của tất cả các máy chủ, dịch vụ và sự kiện trong môi trường giám sát 
@@ -13,7 +22,7 @@ Hình ảnh sau đây cho thấy trang bắt đầu của Chekmk, bạn có th�
 
 ![Imgur](https://i.imgur.com/dKyc44p.png)
 
-2.Thanh điều hướng
+## 2.Thanh điều hướng
 
 <img src= https://i.imgur.com/BhjWaLm.png align=left height= 450 px>
 
@@ -34,26 +43,18 @@ Hình ảnh sau đây cho thấy trang bắt đầu của Chekmk, bạn có th�
 
 Ở cuối thanh điều hướng, trong menu người dung, bạn sẽ tìm thấy các mục nhập áp dụng cho tài khoản người dùng checkmk của mình. 
 
-### 2.2 Các option bên dưới thanh điều hướng
 
-![Imgur](https://i.imgur.com/GEAu4Wb.png)
 
-Trong **User** Ở trên cùng bên phải của menu, bạn sẽ thấy tên người dùng hiện tại (cmkadmin) và vai trò(admin) được chỉ định cho người dùng này. Trong menu này, bạn có thể thay đổi mật khẩu, đăng xuất khỏi giao diện Checkmk và cá nhân hoá hồ sơ của mình. Có thể tìm thấy tổng quan về các cài đặt cá nhận có sẵn trong chương trên menu Người dùng.
+#### 2.1 Thanh monitor
 
-Trong **Help**, bạn sẽ tìm thấy phiên bản và phiên bản chẹcmk hiện đang được sử dung và một số mục nhập mà bạn có thể gọi ra tài liệu và thông tin- bên trong Checkmk hoặc bên ngoài. 
+Trong **monitor**, bạn sẽ tìm thấy các công cụ sẽ cung cấp cho bạn câu trả lời cho các câu hỏi giám sát của bạn. Menu được chia nhỏ theo các chủ đề. Bạn sẽ tìm thấy các mục menu được liệt kê bên dưới mỗi chủ đề:
 
-Thanh điều hướng được hoàn thành ở phái dưới cùng của Sidebar (cho phép bạn ẩn hoặc hiển thị thanh bên bằng cách chỉ cần nhấp vào nó) và ở trên cùng bởi biểu tượng Checkmk. Nhấp vào biểu tượng luôn đưa bạn trở lại trang tổng quan mặc định được hiển thị trên trang chnhs
+![Imgur](https://i.imgur.com/8cwrSdz.png)
 
 
 
-## 2.1 Menu màn hình
-
-Trong menu này, bạn sẽ tìm thấy các công cụ sẽ cung cấp cho bạn câu trả lời cho các câu hỏi giám sát của bạn. Menu được chia nhỏ theo các chủ đề. Bạn sẽ tìm thấy các mục menu được liệt kê bên dưới mỗi chủ đề:
-
-
-![Imgur](https://i.imgur.com/DBqZc5x.png)
-
-các option :
+Các option :
+![Imgur](https://i.imgur.com/vshtq71.png)
 
 1 
 2
@@ -62,10 +63,21 @@ các option :
 5
 6
 
- Menu người dùng
 
-Trong menu `User`, bạn có thể thay đổi cài đặt các nhân hợp lệ cho tài khoản người dùng của mình :
+### 2.2 Các option bên dưới thanh điều hướng
 
+Trong **Help**, bạn sẽ tìm thấy phiên bản và phiên bản chẹcmk hiện đang được sử dung và một số mục nhập mà bạn có thể gọi ra tài liệu và thông tin- bên trong Checkmk hoặc bên ngoài. 
+
+![Imgur](https://i.imgur.com/ygY1hIE.png)
+
+Trong **User** Ở trên cùng bên phải của menu, bạn sẽ thấy tên người dùng hiện tại (cmkadmin) và vai trò(admin) được chỉ định cho người dùng này. Trong menu này, bạn có thể thay đổi mật khẩu, đăng xuất khỏi giao diện Checkmk và cá nhân hoá hồ sơ của mình. Có thể tìm thấy tổng quan về các cài đặt cá nhận có sẵn trong chương trên menu Người dùng.
+
+![Imgur](https://i.imgur.com/GEAu4Wb.png)
+
+
+Thanh điều hướng được hoàn thành ở phái dưới cùng của Sidebar (cho phép bạn ẩn hoặc hiển thị thanh bên bằng cách chỉ cần nhấp vào nó) và ở trên cùng bởi biểu tượng Checkmk. Nhấp vào biểu tượng luôn đưa bạn trở lại trang tổng quan mặc định được hiển thị trên trang chnhs
+
+![Imgur](https://i.imgur.com/5qdxlBJ.png)
 Bảng thiết lập và ghi chú :
 
 3. Các Trang chính hay theo dõi 
