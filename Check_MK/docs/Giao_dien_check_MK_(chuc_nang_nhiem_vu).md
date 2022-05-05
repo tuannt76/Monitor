@@ -7,7 +7,7 @@
       - [2.1.2 Thanh Customize](#212-thanh-customize)
       - [2.1.3 Thanh Setup](#213-thanh-setup)
     - [2.2 Các option bên dưới thanh điều hướng](#22-các-option-bên-dưới-thanh-điều-hướng)
-    - [3. Các Trang chính hay theo dõi](#3-các-trang-chính-hay-theo-dõi)
+  - [3. Các Trang chính hay theo dõi](#3-các-trang-chính-hay-theo-dõi)
 - [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
 # Giao diện người dùng check_MK
@@ -133,7 +133,7 @@ Thanh điều hướng được hoàn thành ở phái dưới cùng của Sideb
 
 
 
-### 3. Các Trang chính hay theo dõi 
+## 3. Các Trang chính hay theo dõi 
 
 3.1 ALL host
 
