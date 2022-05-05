@@ -137,17 +137,22 @@ Thanh điều hướng được hoàn thành ở phái dưới cùng của Sideb
 
 3.1 ALL host
 
+![Imgur](https://i.imgur.com/haG9lhz.png)
+
+
+- Chứa thông tin tất cả các host mà Check_Mk đang giám sát bao gồm các trạng thái và các dịch vụ check_MK đang giám sát.
+
 3.2 Trang dashboard(trang tổng quan)
 
-3.3 views
+![Imgur](https://i.imgur.com/ecHQXiP.png)
 
-3.4 Sidebar
+Trang tổng quan cho phép bạn thêm sửa các hoạt động cần giám sát theo ý muốn của mình.
+
 
 3.5 Overview
 
-3.6 Bookmarks
+![Imgur](https://i.imgur.com/3QvtW8W.png)
 
-3.7 Master control
 
 
 # Tài liệu tham khảo 
