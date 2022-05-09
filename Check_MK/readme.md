@@ -28,7 +28,9 @@
  
 2.2 [Hướng dẫn cài đặt agent của check MK trên Ubuntu18](docs/Set_up_agent_checkmk_U18.md)
 
-3.[Hướng dẫn add host để check MK giám sát](docs/Hướng_dẫn_add_host_để_check_mk.md)
+3.1 [Hướng dẫn add host để check MK giám sát trên CentOS 7](docs/add_host_CheckMk_C7.md)
+
+3.2 [Hướng dẫn add host để check MK giám sát trên Ubuntu18](docs/add_host_ChecMK_U18.md)
 
 4.[Giám sát host HTTP](docs/Giam_sat_host_HTTP.md)
 

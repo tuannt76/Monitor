@@ -1,3 +1,12 @@
+# Hướng dẫn cài đặt Check_MK_U18
+
+
+- [Hướng dẫn cài đặt Check_MK_U18](#hướng-dẫn-cài-đặt-check_mk_u18)
+  - [1.Mô hình triển khai](#1mô-hình-triển-khai)
+  - [2. Cài đặt Check_Mk server](#2-cài-đặt-check_mk-server)
+
+
+
 ## 1.Mô hình triển khai
 
 Dựng check_MK lên 1 OS Ubuntu_u18
@@ -10,14 +19,12 @@ IP Planning
 
 ## 2. Cài đặt Check_Mk server
 
-#### Download file cài đặt
 
-Lưu ý trước khi cài đặt :
+**<h2>Lưu ý trước khi cài đặt :</h2>**
 
 Các câu lệnh đang được thực hiện **Root** trên Ubuntu.
 
 Thực hiện trên user thêm ``SU`` vào phía trước.
-
 
 Tải file cài đặt check_MK 2.0:
 
@@ -64,8 +71,8 @@ htpasswd -m etc/htpasswd cmkadmin
 New password:
 Re-type new password:
 Updating password for user cmkadmin
-
 `
+
 ![Imgur](https://i.imgur.com/fFBe8bd.png)
 
 
