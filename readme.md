@@ -22,7 +22,7 @@
 
 2.2 [Hướng dẫn cài đặt agent(win10) của check MK server Ubuntu 18](Check_MK/docs/Set_up_agent_checkmk_U18.md)
 
-3.1 [Hướng dẫn add host để server check MK giám sát ](Check_MK/docs/Hướng_dẫn_add_host_để_check_mk.md)
+3 [Hướng dẫn add host để server check MK giám sát ](Check_MK/docs/Hướng_dẫn_add_host_để_check_mk.md)
 
 4.[Giám sát host HTTP](Check_MK/docs/Giam_sat_host_HTTP.md)
 
