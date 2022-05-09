@@ -20,11 +20,13 @@
 
 <h2>Thực hành Check_MK</h2>
 
-1.1[Cài đặt check_MK server CentOS_7](docs/Set_up_check_MK_C7.md)
+1.1 [Cài đặt Check_MK server CentOS_7](docs/Set_up_check_MK_C7.md)
 
-1.2[Cài đặt check_Mk Ubuntu_18_04](docs/Set_UP_check_Mk_U18.md)
+1.2 [Cài đặt Check_Mk Ubuntu_18_04](docs/Set_UP_check_Mk_U18.md)
 
-2.[Hướng dẫn cài đặt agent của check MK](docs/Hướng_dẫn_cài_đặt_agent_của_checkmk_trên_centos%207.md)
+2.1 [Hướng dẫn cài đặt agent của check MK trên CentOS 7](docs/Set_up_agent_checkmk_C7.md)
+ 
+2.2 [Hướng dẫn cài đặt agent của check MK trên Ubuntu18](docs/Set_up_agent_checkmk_U18.md)
 
 3.[Hướng dẫn add host để check MK giám sát](docs/Hướng_dẫn_add_host_để_check_mk.md)
 
