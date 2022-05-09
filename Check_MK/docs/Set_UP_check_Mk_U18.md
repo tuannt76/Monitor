@@ -12,11 +12,17 @@ IP Planning
 
 #### Download file cài đặt
 
+Lưu ý trước khi cài đặt :
+
+Các câu lệnh đang được thực hiện **Root** trên Ubuntu.
+
+Thực hiện trên user thêm ``SU`` vào phía trước.
+
+
 Tải file cài đặt check_MK 2.0:
 
 ```
 wget https://download.checkmk.com/checkmk/2.0.0p23/check-mk-raw-2.0.0p23_0.bionic_amd64.deb
-
 ```
 
 ![Imgur](https://i.imgur.com/gB69R6w.png)
@@ -60,7 +66,7 @@ Re-type new password:
 Updating password for user cmkadmin
 
 `
-
+![Imgur](https://i.imgur.com/fFBe8bd.png)
 
 
 Quay lại User **root** để thực hiện tiếp câu lệnh (`Ctrl` + `d`)
