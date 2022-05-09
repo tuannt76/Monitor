@@ -24,11 +24,11 @@ IPplanning:
 
 **<h2>Bước 1 : Tìm agent phù hợp cho máy Client</h2>**
 
-Tại máy Check_MK server tìm agent phù hợp cho CentOS-7. Bản Agent phù hợp với CentOS-7 phải có đuôi file là `.rpm`
+Tại máy Check_MK server tìm agent phù hợp cho CentOS-7. Bản Agent phù hợp với CentOS-7 phải có đuôi file là `.pde`
 
 Lần lượt truy cập theo bước 1 trong hình vẽ :
 
-![](../image/agent_1.png)
+![Imgur](https://i.imgur.com/GrLigiM.png)
 
 
 Copy tên file trong hình : 
@@ -39,30 +39,20 @@ Sao chép liên kết download,
 Ví dụ trong bài đang viết thì agent có Link như sau: 
 
 ```
-http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p23-1.noarch.rpm
+http://192.168.76.72/tuanntu18/check_mk/agents/check_mk_agent.msi
 ```
 
 
- Ở đây cài đặt Agent trên clinet CentOS_7 nên sẽ chọn agent có đuôi là .rpm
+ Ở đây cài đặt Agent trên clinet CentOS_7 nên sẽ chọn agent có đuôi là .msi
+
+> **Thực hiện trên máy clinet Win 7:**
 
 
-> **Thực hiện trên máy clinet CentOS 7 :**
 
-**<h2>Bước 2: Cài gói wget(nếu cài rồi bỏ qua bước này) :**</h2>
-
-
-```
-yum install -y wget
-```
-
-
-Note : wget là package dùng để tải package bằng link download về máy
-
-
-**<h2>Bước 3 :Dùng gói wget download agent ở bước 1**</h2>
+**<h2>Bước 2 :Truy cập vào trình duyệt web**</h2>
 
 ```
-wget http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p23-1.noarch.rpm
+http://192.168.76.72/tuanntu18/check_mk/agents/check_mk_agent.msi
 ```
 ![](../image/agnet_3.png)
 
