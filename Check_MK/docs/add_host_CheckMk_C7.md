@@ -8,7 +8,7 @@ Trước khi add thêm host để check_MK có thể giám sát thì **máy mu�
 
 Link hướng dẫn cài ``Agent`` của checkMK vào máy cần được giám sát :
 
-https://github.com/tuannt76/Monitoring/blob/main/Check_MK/docs/H%C6%B0%E1%BB%9Bng_d%E1%BA%ABn_c%C3%A0i_%C4%91%E1%BA%B7t_agent_c%E1%BB%A7a_checkmk_tr%C3%AAn_centos%207.md
+[Hướng dẫn cài đặt agent của check MK trên CentOS 7](docs/Set_up_agent_checkmk_C7.md)
 
 
 
