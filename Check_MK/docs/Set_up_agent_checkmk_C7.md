@@ -161,5 +161,5 @@ Thực hiện xong quá trình cài đặt agent của Check_MK trên CentOS-7. 
 
 Link hướng dẫn add host để checkmk giám sát :
 
-https://github.com/tuannt76/Monitoring/blob/main/Check_MK/docs/H%C6%B0%E1%BB%9Bng_d%E1%BA%ABn_add_host_%C4%91%E1%BB%83_check_mk.md
+[Hướng dẫn add host để server check MK giám sát ](Check_MK/docs/add_host_CheckMk_C7.md)
 

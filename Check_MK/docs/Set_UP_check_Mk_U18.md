@@ -59,6 +59,8 @@ omd start tuanntu18
 ```
 ![Imgur](https://i.imgur.com/mxiaBjB.png)
 
+Luôn bật Check_Mk khi khởi động server : 
+
 Đổi mật khẩu cho User **cmkadmin**
 
 ```
@@ -66,12 +68,12 @@ su - tuanntu18
 htpasswd -m etc/htpasswd cmkadmin
 ```
 
-`
-#Nhập mật khẩu cho user
+```
+Nhập mật khẩu cho user
 New password:
 Re-type new password:
 Updating password for user cmkadmin
-`
+```
 
 ![Imgur](https://i.imgur.com/fFBe8bd.png)
 
