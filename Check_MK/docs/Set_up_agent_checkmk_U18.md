@@ -39,7 +39,7 @@ Sao chép liên kết download,
 Ví dụ trong bài đang viết thì agent có Link như sau: 
 
 ```
-http://192.168.76.72/tuanntu18/check_mk/agents/check_mk_agent.msi
+http://192.168.76.72/tuanntu18/check_mk/agents/check-mk-agent-2.0.0p23-1.noarch.rpm
 ```
 
 
@@ -52,7 +52,7 @@ http://192.168.76.72/tuanntu18/check_mk/agents/check_mk_agent.msi
 **<h2>Bước 2 :Truy cập vào trình duyệt web**</h2>
 
 ```
-http://192.168.76.72/tuanntu18/check_mk/agents/check_mk_agent.msi
+http://192.168.76.72/tuanntu18/check_mk/agents/check-mk-agent-2.0.0p23-1.noarch.rpm
 ```
 ![](../image/agnet_3.png)
 
