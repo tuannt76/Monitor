@@ -146,13 +146,8 @@ Chọn vào 1 dịch vụ đang bị cảnh báo CRIT
 
 **Bước 3:** ấn vào các thông số trong hình :
 
-![Imgur](https://i.imgur.com/RybUH0y.png)
 
-
-Ấn ``SAVE``
-
-
-![Imgur](https://i.imgur.com/9an4Dj2.png)
+![Imgur](https://i.imgur.com/3oxZetk.png)
 
 Thành công :
 
@@ -165,7 +160,7 @@ Thành công :
 ![Imgur](https://i.imgur.com/AVV7PN0.png)
 
 
-Thành công!
+**<h1>Thành công!</h1>**
 
 
 Nếu check_mk bị lỗi thì ta sẽ truy cập vào đường dẫn sau để gửi lại :
