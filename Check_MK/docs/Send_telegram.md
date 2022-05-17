@@ -45,7 +45,7 @@ Bạn sẽ nhận được thông tin con Bot Telegram của mình, lưu giữ l
 ví dụ: 
 
 ```
-https://api.telegram.org/botXXXXXXToken_botXXXXXXXXXXXX/getUpdates
+https://api.telegram.org/botXXXXXXXXXXXXXXXXXX/getUpdates
 ```
 
 
