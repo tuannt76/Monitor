@@ -53,7 +53,7 @@ Chú ý trước chuỗi token phải có `bot`
 
 **Bước2 :** Sau đó chat với bot vừa tạo  :
 
- ![Imgur](https://i.imgur.com/qjMva5U.png)
+ ![Imgur](https://i.imgur.com/qjMva5U.png width=75%)
 
 
 - Refresh lại trang token thì sẽ cho ta một địa chỉ id đó là Chat ID( **nếu chưa ra ID thì chat với bot rồi tiếp tục f5**):
