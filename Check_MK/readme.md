@@ -30,10 +30,16 @@
 
 3 [Hướng dẫn add host để check MK giám sát trên CentOS 7](docs/add_host_CheckMk_C7.md)
 
-4.[Giám sát host HTTP](docs/Giam_sat_host_HTTP.md)
+4 [Gửi cảnh báo đến Telegram](docs/Send_telegram.md)
 
-5.[Giám sát Port TCP](docs/Giám_sát_Port_TCP.md)
+5.[Lênh giám sát hệ thống và đẩy tải hệ thống](docs/command_monitor_system_thong_bao_day.md)
 
-6.[Giám sát dịch vụ MySQL](docs/Giám_sát_dịch_vụ_MySQL.md)
 
-7.[Giám sát dịch vụ Apache](docs/Giám_sát_dịch_vụ_Apache.md)
+
+[Giám sát host HTTP](docs/Giam_sat_host_HTTP.md)
+
+[Giám sát Port TCP](docs/Giám_sát_Port_TCP.md)
+
+[Giám sát dịch vụ MySQL](docs/Giám_sát_dịch_vụ_MySQL.md)
+
+[Giám sát dịch vụ Apache](docs/Giám_sát_dịch_vụ_Apache.md)

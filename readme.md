@@ -24,6 +24,10 @@
 
 3 [Hướng dẫn add host để server check MK giám sát ](Check_MK/docs/add_host_CheckMk_C7.md)
 
+4 [Gửi cảnh báo đến Telegram](/Check_MK/docs/Send_telegram.md)
+
+5.[Lệnh giám sát hệ thống và đẩy tải hệ thống](/Check_MK/docs/command_monitor_system_thong_bao_day.md)
+
 4.[Giám sát host HTTP](Check_MK/docs/Giam_sat_host_HTTP.md)
 
 5.[Giám sát Port TCP](Check_MK/docs/Giám_sát_Port_TCP.md)
