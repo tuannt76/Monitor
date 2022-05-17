@@ -106,15 +106,22 @@ omd restart apache
 
 **Bước 1** : truy cập theo đường dẫn **setup>Events>Notitication configuration**
 
+![Imgur](https://i.imgur.com/DVsHZWk.png)
+
 **Bước 2** : tạo 1 rule và điền các thông số sau  :
 
+![Imgur](https://i.imgur.com/6A4rkAU.png)
+
 Điền các thông số quan trọng sau :
+
 
 - bot token telegram của bạn 
 
 - Id bot telegram
 
 - Tùy chọn tham số ``Pricacy`` đã được đề cập
+
+[Imgur](https://i.imgur.com/RybUH0y.png)
 
 ## 4. Demo check_Mk gửi cảnh báo đến telegram 
 
