@@ -121,7 +121,7 @@ omd restart apache
 
 - Tùy chọn tham số ``Pricacy`` đã được đề cập
 
-[Imgur](https://i.imgur.com/RybUH0y.png)
+![Imgur](https://i.imgur.com/RybUH0y.png)
 
 ## 4. Demo check_Mk gửi cảnh báo đến telegram 
 
