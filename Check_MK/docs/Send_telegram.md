@@ -86,13 +86,9 @@ cd ~/local/share/check_mk/notifications/
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/filipnet/checkmk-telegram-notify/main/check_mk_telegram-notify.sh
 ```
-**Bước 3** : Sửa file vừa tạo 
 
-```
-Vi check_mk_telegram-notify.sh
-```
 
-**bước 4** : Cấp quyền cho file :
+**bước 3** : Cấp quyền cho file :
 
 ```
 chmod ug+x check_mk_telegram-notify.sh
@@ -100,7 +96,7 @@ chmod ug+x check_mk_telegram-notify.sh
 Sau đó :
 
 ```
-Restart apache
+omd restart apache
 ```
 
 
