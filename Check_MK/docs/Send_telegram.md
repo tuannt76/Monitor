@@ -148,18 +148,25 @@ Chọn vào 1 dịch vụ đang bị cảnh báo CRIT
 
 ![Imgur](https://i.imgur.com/RybUH0y.png)
 
+
 Ấn ``SAVE``
+
 
 ![Imgur](https://i.imgur.com/9an4Dj2.png)
 
 Thành công :
+
 ![Imgur](https://i.imgur.com/AHF8zrG.png)
+
 
 Đợi check_Mk gửi cảnh báo về :
 
+
 ![Imgur](https://i.imgur.com/AVV7PN0.png)
 
+
 Thành công!
+
 
 Nếu check_mk bị lỗi thì ta sẽ truy cập vào đường dẫn sau để gửi lại :
 
