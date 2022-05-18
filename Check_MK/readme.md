@@ -32,7 +32,9 @@
 
 4 [Gửi cảnh báo đến Telegram](docs/Send_telegram.md)
 
-5.[Lênh giám sát hệ thống và đẩy tải hệ thống](docs/command_monitor_system_thong_bao_day.md)
+5 [Gửi cảnh báo đến Gmail](docs/send_gmail.md)
+
+6.[Lênh giám sát hệ thống và đẩy tải hệ thống](docs/command_monitor_system_thong_bao_day.md)
 
 
 
