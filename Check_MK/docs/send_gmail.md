@@ -186,7 +186,7 @@ Cập nhật thông tin sau khi thay đổi
 
 **Lưu và kích hoạt sự thay đổi**
 
-Kiểm tra khi có thay đổi của host:
+**Bước 3** Kiểm tra khi có thay đổi của host:
 
 ![Imgur](https://i.imgur.com/Bstboke.png)
 
