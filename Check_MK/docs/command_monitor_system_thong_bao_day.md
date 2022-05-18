@@ -2,7 +2,6 @@
 <h1>Câu lệnh giám sát hệ thống và đẩy tải hệ thống</h1>
 
 - [1.Câu lệnh giám sát hệ thống](#1câu-lệnh-giám-sát-hệ-thống)
-  - [2.1. TOP](#21-top)
   - [Test CPU](#test-cpu)
   - [Test RAM](#test-ram)
   - [Test Network](#test-network)
@@ -15,7 +14,6 @@
 
 # 1.Câu lệnh giám sát hệ thống 
 
-## 2.1. TOP
 
 ## Test CPU
 
