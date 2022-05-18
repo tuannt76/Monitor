@@ -36,6 +36,7 @@
 
 6.[Lênh giám sát hệ thống và đẩy tải hệ thống](docs/command_monitor_system_thong_bao_day.md)
 
+7.[Ngưỡng cảnh báo dịch vụ](docs/nguong_canh_bao_dich_vu.md)
 
 
 [Giám sát host HTTP](docs/Giam_sat_host_HTTP.md)

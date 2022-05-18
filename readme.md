@@ -28,15 +28,19 @@
 
 5 [Gửi cảnh báo đến Gmail](Check_MK/docs/send_gmail.md)
 
-5.[Lệnh giám sát hệ thống và đẩy tải hệ thống](/Check_MK/docs/command_monitor_system_thong_bao_day.md)
+6.[Lệnh giám sát hệ thống và đẩy tải hệ thống](/Check_MK/docs/command_monitor_system_thong_bao_day.md)
 
-4.[Giám sát host HTTP](Check_MK/docs/Giam_sat_host_HTTP.md)
+7.[Ngưỡng cảnh báo dịch vụ](Check_MK/docs/nguong_canh_bao_dich_vu.md)
 
-5.[Giám sát Port TCP](Check_MK/docs/Giám_sát_Port_TCP.md)
 
-6.[Giám sát dịch vụ MySQL](Check_Mk/docs/Giám_sát_dịch_vụ_MySQL.md)
+[Giám sát host HTTP](Check_MK/docs/Giam_sat_host_HTTP.md)
 
-7.[Giám sát dịch vụ Apache](Check_MK/docs/Giám_sát_dịch_vụ_Apache.md)
+[Giám sát Port TCP](Check_MK/docs/Giám_sát_Port_TCP.md)
+
+[Giám sát dịch vụ MySQL](Check_Mk/docs/Giám_sát_dịch_vụ_MySQL.md)
+
+[Giám sát dịch vụ Apache](Check_MK/docs/Giám_sát_dịch_vụ_Apache.md)
+
 
 
 # <h2>**Ghi chép Zabbix**</h2>
