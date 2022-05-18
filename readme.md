@@ -26,7 +26,7 @@
 
 4 [Gửi cảnh báo đến Telegram](/Check_MK/docs/Send_telegram.md)
 
-5 [Gửi cảnh báo đến Gmail](/check_MK/docs/send_gmail.md)
+5 [Gửi cảnh báo đến Gmail](Check_MK/docs/send_gmail.md)
 
 5.[Lệnh giám sát hệ thống và đẩy tải hệ thống](/Check_MK/docs/command_monitor_system_thong_bao_day.md)
 
