@@ -28,7 +28,7 @@ Trước khi thực hiện việc giám sát ta cần **cấu hình mikotik** v�
 3. setup SNMP cho Router Mikotik
 
 
-## Các bước cài check_MK để giám sát switch,Router qua giao thưc SNMP :
+## Các bước cài check_MK để giám sát switch,Router qua giao thức SNMP :
 
 Trước khi cài ta cần kiểm tra xem router có SNMP chưa :
 
@@ -40,6 +40,10 @@ snmpwalk -v2c -c public 192.168.77.135
 
 ![Imgur](https://i.imgur.com/jAaKUGL.png)
 
+**<h2>Nếu chưa được thì phải xem xét lại các cài đặt phía trên**</h2>
+
+>Thực hiện trên check_Mk :
+
 
 Bước 1 : Truy cập vào đường dẫn theo hình :
 
@@ -49,17 +53,17 @@ Bước 1 : Truy cập vào đường dẫn theo hình :
 
 ![Imgur](https://i.imgur.com/9bNVbrq.png)
 
-Chọn các dịch vụ ấn cần giám sát :
+Bước 2 : Chọn các dịch vụ ấn cần giám sát :
 ![Imgur](https://i.imgur.com/iUw73ac.png)
 
-Sau đó Fix all :
+Bước 3 : Sau đó Fix all :
 
 ![Imgur](https://i.imgur.com/jMhvF8g.png)
 
-Hoàn tất quá trình giám sát router qua giao thức SNMP :
+Bước 4 : Hoàn tất quá trình giám sát router qua giao thức SNMP :
 
 [Imgur](https://i.imgur.com/bDKttXh.png)
 
-Check_Mk gửi cảnh báo :
+Check_Mk tự động gửi cảnh báo :
 
 ![Imgur](https://i.imgur.com/gmnaWrM.png)
