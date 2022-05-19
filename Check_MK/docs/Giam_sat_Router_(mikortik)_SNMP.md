@@ -53,3 +53,7 @@ Sau đó Fix all :
 Hoàn tất quá trình giám sát router qua giao thức SNMP :
 
 [Imgur](https://i.imgur.com/bDKttXh.png)
+
+Check_Mk gửi cảnh báo :
+
+![Imgur](https://i.imgur.com/gmnaWrM.png)
