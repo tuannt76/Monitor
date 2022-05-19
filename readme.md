@@ -32,6 +32,7 @@
 
 7.[Ngưỡng cảnh báo dịch vụ](Check_MK/docs/nguong_canh_bao_dich_vu.md)
 
+8. [Giám sát router qua giao thức SNMP](Check_MK/docs/Giam_sat_Router_(mikortik)_SNMP.md)
 
 [Giám sát host HTTP](Check_MK/docs/Giam_sat_host_HTTP.md)
 
