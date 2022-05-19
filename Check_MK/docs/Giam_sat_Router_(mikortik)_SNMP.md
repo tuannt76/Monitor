@@ -1,12 +1,18 @@
 
+# Giám sát Router bằng SNMP :
+
 
 Ở bài viết này ta sẽ thực hiện lab giám sát router Mikrotik bằng giao thức SNMP...
 
 Để thực hiện bài lab ta cần dựng phần mền giả lập EVE-NG
 
-Cài router Mikortik 
+https://github.com/tuannt76/CCNA/blob/main/docs/0.Setup_EVE-NG.md
 
+https://github.com/tuannt76/CCNA/blob/main/docs/0.Setup_SecureSRT%2CMobaxterm.md
 
+**Cài router Mikortik**
+
+https://github.com/tuannt76/CCNA/blob/main/docs/0.H%C6%B0%E1%BB%9Bng_d%E1%BA%ABn_th%C3%AAm_Router_Mikrotik_v%C3%A0o_EVE-NG.md
 
 ![Imgur](https://i.imgur.com/XQzoYNb.png)
 
@@ -22,7 +28,7 @@ Trước khi thực hiện việc giám sát ta cần **cấu hình mikotik** v�
 3. setup SNMP cho Router Mikotik
 
 
-# Các bước cài check_MK để giám sát switch,Router qua giao thưc SNMP :
+## Các bước cài check_MK để giám sát switch,Router qua giao thưc SNMP :
 
 Trước khi cài ta cần kiểm tra xem router có SNMP chưa :
 
