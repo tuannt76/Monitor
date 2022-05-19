@@ -165,9 +165,16 @@ chọn Save
 
 Lưu lại khi hoàn thành thông tin
 
+
+
+**Để Check_mk có thể gửi cho nhiều user ta cũng thực hiện thêm add user mới tương tự như trên  và thêm vào group**
+
+
 Cập nhật thông tin sau khi thay đổi
 
 ![Imgur](https://i.imgur.com/nluRnQp.png)
+
+
 
 ### 2.2 Cấu hình cảnh báo
 
@@ -186,11 +193,15 @@ Cập nhật thông tin sau khi thay đổi
 
 **Lưu và kích hoạt sự thay đổi**
 
-**Bước 3** Kiểm tra khi có thay đổi của host:
+**Bước 3** : kiểm tra Check_MK đã gửi cảnh báo đến các mail được chọn :
+
+![Imgur](https://i.imgur.com/UmUocfr.png)
+
+- CHeck_MK gửi thông báo về trạng thái thay đổi của host:
 
 ![Imgur](https://i.imgur.com/Bstboke.png)
 
-Khi có thay đổi của Service:
+- Check_MK gửi thông báo khi có thay đổi của Service:
 
 ![Imgur](https://i.imgur.com/F0AL9UI.png)
 
