@@ -34,13 +34,16 @@
 
 8.[Giám sát router qua giao thức SNMP](Check_MK/docs/Giam_sat_Router_(mikortik)_SNMP.md)
 
-[Giám sát host HTTP](Check_MK/docs/Giam_sat_host_HTTP.md)
 
-[Giám sát Port TCP](Check_MK/docs/Giám_sát_Port_TCP.md)
+9.[Back UP site Check_Mk](Check_MK/docs/Back_UP_site_check_MK.md)
 
-[Giám sát dịch vụ MySQL](Check_Mk/docs/Giám_sát_dịch_vụ_MySQL.md)
+10.[Giám sát Port TCP](Check_MK/docs/Giám_sát_Port_TCP.md)
 
-[Giám sát dịch vụ Apache](Check_MK/docs/Giám_sát_dịch_vụ_Apache.md)
+11.[Giám sát host HTTP](Check_MK/docs/Giam_sat_host_HTTP.md)
+
+12.[Giám sát dịch vụ MySQL](Check_MK/docs/Giám_sát_dịch_vụ_MySQL.md)
+
+13.[Giám sát dịch vụ Apache](Check_MK/docs/Giám_sát_dịch_vụ_Apache.md)
 
 
 

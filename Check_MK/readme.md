@@ -42,11 +42,10 @@
 
 9.[Back UP site Check_Mk](docs/Back_UP_site_check_MK.md)
 
+10.[Giám sát Port TCP](docs/Giám_sát_Port_TCP.md)
 
-[Giám sát host HTTP](docs/Giam_sat_host_HTTP.md)
+11.[Giám sát host HTTP](docs/Giam_sat_host_HTTP.md)
 
-[Giám sát Port TCP](docs/Giám_sát_Port_TCP.md)
+12.[Giám sát dịch vụ MySQL](docs/Giám_sát_dịch_vụ_MySQL.md)
 
-[Giám sát dịch vụ MySQL](docs/Giám_sát_dịch_vụ_MySQL.md)
-
-[Giám sát dịch vụ Apache](docs/Giám_sát_dịch_vụ_Apache.md)
+13.[Giám sát dịch vụ Apache](docs/Giám_sát_dịch_vụ_Apache.md)
