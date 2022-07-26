@@ -62,7 +62,7 @@ Bước 3 : Sau đó Fix all :
 
 Bước 4 : Hoàn tất quá trình giám sát router qua giao thức SNMP :
 
-[Imgur](https://i.imgur.com/bDKttXh.png)
+![Imgur](https://i.imgur.com/bDKttXh.png)
 
 Check_Mk tự động gửi cảnh báo :
 
