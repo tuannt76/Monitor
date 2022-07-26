@@ -67,3 +67,7 @@ Bước 4 : Hoàn tất quá trình giám sát router qua giao thức SNMP :
 Check_Mk tự động gửi cảnh báo :
 
 ![Imgur](https://i.imgur.com/gmnaWrM.png)
+
+Tham khảo thêm bài viết 
+
+[Cấu hình SNMP để CheckMK giám sát bằng SNMP](https://docs.google.com/document/d/1TbI46OWf7iUFGMwfoPauLQ1WwGwiToKuvA7H_lMTpxM/edit?usp=sharing)
