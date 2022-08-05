@@ -40,5 +40,5 @@ Sau khi có agent trên máy ta tiến hành chạy file bằng quyền admin
 
 >note: **Add host CentOS hay host Windows thao tác giống nhau :**
 
-https://github.com/tuannt76/Monitoring/blob/main/Check_MK/docs/H%C6%B0%E1%BB%9Bng_d%E1%BA%ABn_add_host_%C4%91%E1%BB%83_check_mk.md
+[Add host để CheckMK giám sát](./add_host_CheckMk_C7.md)
 
