@@ -96,7 +96,7 @@ Các dịch vụ đã được giám sát
 
 >Sau khi đã thực hiện xong việc giám sát host ta tiến hành gửi cảnh báo tự động :
 
-Tham khảo các bài viết sau : 
+<h2>Tham khảo các bài viết sau</h2> : 
 
 [Gửi cảnh báo tới Telegram](./Send_telegram.md)
 
