@@ -8,8 +8,9 @@ Trước khi add thêm host để check_MK có thể giám sát thì **máy mu�
 
 Link hướng dẫn cài ``Agent`` của checkMK vào máy cần được giám sát :
 
-[Hướng dẫn cài đặt agent của check MK trên CentOS 7](./Set_up_agent_checkmk_C7.md)
+[Hướng dẫn cài agent lên client CentOS 7](./Set_up_agent_checkmk_C7.md)
 
+[Hướng dẫn cài agent lên client Windows](./Set_up_agent_checkmk_U18.md)
 
 
 Bài viết dưới đây sẽ hướng dẫn add host để check_Mk có thể giám sát :
@@ -93,3 +94,10 @@ Như vậy đã hoàn thành add host và service cho Check_mk
 Các dịch vụ đã được giám sát 
 ![Imgur](https://i.imgur.com/WQ44rOE.png)
 
+>Sau khi đã thực hiện xong việc giám sát host ta tiến hành gửi cảnh báo tự động :
+
+Tham khảo các bài viết sau : 
+
+[Gửi cảnh báo tới Telegram](./Send_telegram.md)
+
+[Gửi cảnh báo tới Email](./send_gmail.md)
