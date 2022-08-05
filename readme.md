@@ -20,7 +20,7 @@
 
 2.1 [Hướng dẫn cài agent vào client CentOS 7](Check_MK/docs/Set_up_agent_checkmk_C7.md)
 
-2.2 [Hướng dẫn cài agent vào máy client Windows ](Check_MK/docs/Set_up_agent_checkmk_U18.md)
+2.2 [Hướng dẫn cài agent vào client Windows ](Check_MK/docs/Set_up_agent_checkmk_U18.md)
 
 3 [Hướng dẫn add host để server check MK giám sát ](Check_MK/docs/add_host_CheckMk_C7.md)
 
