@@ -17,17 +17,19 @@ IPplanning:
 
 ![Imgur](https://i.imgur.com/dreUce3.png)
 
+Agent có thể dùng chung cho tất cả các bản Win bao gồm cả Windows Server.
+
 ## **2. Các bước thực hiện**
 
 > **Thực hiện trên máy clinet Win 7:**
 
-Tiến hành đăng nhập vào server CheckMK trên trình duyệt web để tải agent trên về..
+Tiến hành đăng nhập vào server CheckMK trên trình duyệt web để tải agent trên về...
 
 **<h2>Bước 1 : Tìm agent phù hợp cho máy Client</h2>**
 
 Tại máy Check_MK server tìm agent phù hợp cho Windows. Bản Agent phù hợp với Windows phải có đuôi file là `.MSI`
 
-
+Truy cập theo đường dẫn sau :
 ![Imgur](https://i.imgur.com/GrLigiM.png)
 
 Tiến hành click và tải xuống.
