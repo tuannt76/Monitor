@@ -119,7 +119,11 @@ omd restart apache
 
 - Id bot telegram
 
-- Tùy chọn tham số ``Pricacy`` đã được đề cập
+- Tùy chọn tham số ``Privacy`` đã được đề cập
+
+<h2>Sửa tài liệu bẫy: điền tham số </h2>  
+
+**privacy** not pricacy
 
 ![Imgur](https://i.imgur.com/RybUH0y.png)
 
