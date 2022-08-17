@@ -38,8 +38,9 @@ Sao chép liên kết download,
 
 Ví dụ trong bài đang viết thì agent có Link như sau: 
 
+
 ```
-http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p23-1.noarch.rpm
+http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
 
 
@@ -62,27 +63,27 @@ Note : wget là package dùng để tải package bằng link download về máy
 **<h2>Bước 3 :Dùng gói wget download agent ở bước 1**</h2>
 
 ```
-wget http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p23-1.noarch.rpm
+wget http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
 ![](../image/agnet_3.png)
 
 **<h2>Bước 4 : Cấp quyền thực thi cho file vừa download**</h2>
 
 ```
-chmod +x check-mk-agent-2.0.0p23-1.noarch.rpm
+chmod +x check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
 ![](../image/agnet_4.png)
 
 **<h2>Bước 5 : Cài đặt agent**</h2>
 
 ```
-rpm -ivh check-mk-agent-2.0.0p23-1.noarch.rpm
+rpm -ivh check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
 
 or
 
 ```
-dpkg -i check-mk-agent-2.0.0p23-1.noarch.deb
+dpkg -i check-mk-agent_2.0.0p27-1_all.deb
 ```
 
 **<h2>Bước 6 : Cài đặt xinetd**</h2>
