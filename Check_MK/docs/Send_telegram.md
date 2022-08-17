@@ -128,6 +128,7 @@ omd restart apache
 ![Imgur](https://i.imgur.com/RybUH0y.png)
 
 <h2>Sửa tài liệu bẫy: điền tham số </h2>  
+
 **privacy** không phải pricacy
 
 ## 4. Demo check_Mk gửi cảnh báo đến telegram 
