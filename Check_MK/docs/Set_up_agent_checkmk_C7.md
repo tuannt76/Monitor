@@ -26,7 +26,7 @@ IPplanning:
 
 Tại máy Check_MK server tìm agent phù hợp cho CentOS-7. Bản Agent phù hợp với CentOS-7 phải có đuôi file là `.rpm`
 
-Lần lượt truy cập theo bước 1 trong hình vẽ :
+Lần lượt truy cập :
 
 ![](../image/agent_1.png)
 
@@ -38,13 +38,20 @@ Sao chép liên kết download,
 
 Ví dụ trong bài đang viết thì agent có Link như sau: 
 
+Cú pháp ;
+
+```
+http://IPserverCMK/ten_site/check_mk/agents/....
+```
+
+ví dụ :
 
 ```
 http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
 
+**khi cài đặt chú ý phiên bản agent đang cài đặt ở đây là bản 2.0 p27**
 
- Ở đây cài đặt Agent trên clinet CentOS_7 nên sẽ chọn agent có đuôi là .rpm
 
 
 > **Thực hiện trên máy clinet CentOS 7 :**
@@ -62,6 +69,7 @@ Note : wget là package dùng để tải package bằng link download về máy
 
 **<h2>Bước 3 :Dùng gói wget download agent ở bước 1**</h2>
 
+Ví dụ :
 ```
 wget http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
