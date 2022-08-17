@@ -21,7 +21,7 @@ yum install -y epel-release wget
 Tải file cài đặt check_MK 2.0:
 
 ```
-wget https://checkmk.com/support/2.0.0p23/check-mk-raw-2.0.0p23-el7-38.x86_64.rpm
+wget https://download.checkmk.com/checkmk/2.0.0p27/check-mk-raw-2.0.0p27-el7-38.x86_64.rpm
 ```
 
 Cài đặt CheckMK
