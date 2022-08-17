@@ -84,14 +84,14 @@ cd ~/local/share/check_mk/notifications/
 **Bước 2** : Tải file ``srcipts`` trên trang chủ của Check_mk theo link sau :
 
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/filipnet/checkmk-telegram-notify/main/check_mk_telegram-notify.sh
+wget --no-check-certificate https://raw.githubusercontent.com/filipnet/checkmk-telegram-notify/main/check_mk_telegram-notify.sh -O telegram.sh
 ```
 
 
 **bước 3** : Cấp quyền cho file :
 
 ```
-chmod ug+x check_mk_telegram-notify.sh
+chmod ug+x telegram.sh
 ```
 Sau đó :
 
