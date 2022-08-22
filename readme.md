@@ -18,9 +18,9 @@
 
 1.2 [Cài đặt Check_Mk Ubuntu_18_04](Check_MK/docs/Set_UP_check_Mk_U18.md)
 
-2.1 [Hướng dẫn cài đặt agent của check MK trên Linux](docs/Set_up_agent_checkmk_Linux.md)
+2.1 [Hướng dẫn cài đặt agent của check MK trên Linux](Check_MK/docs/Set_up_agent_checkmk_Linux.md)
  
-2.2 [Hướng dẫn cài đặt agent của check MK trên Windows](docs/Set_up_agent_checkmk_Windows.md)
+2.2 [Hướng dẫn cài đặt agent của check MK trên Windows](Check_MK/docs/Set_up_agent_checkmk_Windows.md)
 
 3 [Hướng dẫn add host để check MK giám sát](docs/add_host_CheckMk.md)
 
