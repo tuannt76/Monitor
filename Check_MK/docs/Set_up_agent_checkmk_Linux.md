@@ -12,7 +12,6 @@ Mô hình mạng :
 ![](../image/agent_0.png)
 
 
-
 IPplanning:
 
 ![](../image/agnet_2.png)
@@ -24,34 +23,34 @@ IPplanning:
 
 **<h2>Bước 1 : Tìm agent phù hợp cho máy Client</h2>**
 
-Tại máy Check_MK server tìm agent phù hợp cho CentOS-7. Bản Agent phù hợp với CentOS-7 phải có đuôi file là `.rpm`
+Lần lượt truy cập theo đường dẫn :
 
-Lần lượt truy cập :
+**Setup> Agent> Linux...**
 
-![](../image/agent_1.png)
+Bản Agent phù hợp với **CentOS-7** phải có đuôi file là `.rpm`
 
+![Imgur](https://i.imgur.com/e8fxJ2w.png)
+
+Bản Agent phù hợp với **Ubuntu** phải có đuôi file là `.deb`
+
+![Imgur](https://i.imgur.com/ueeVte9.png)
 
 Copy tên file trong hình : 
 
 
-Sao chép liên kết download, 
-
-Ví dụ trong bài đang viết thì agent có Link như sau: 
-
-Cú pháp ;
+Cú pháp :
 
 ```
 http://IPserverCMK/ten_site/check_mk/agents/....
 ```
 
-ví dụ :
+Ví dụ trong bài đang viết thì agent có Link như sau: 
 
 ```
-http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p27-1.noarch.rpm
+http://192.168.76.76/TuanNT/check_mk/agents/check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
 
 **khi cài đặt chú ý phiên bản agent đang cài đặt ở đây là bản 2.0 p27**
-
 
 
 > **Thực hiện trên máy clinet CentOS 7 :**
@@ -71,16 +70,16 @@ Note : wget là package dùng để tải package bằng link download về máy
 
 Ví dụ :
 ```
-wget http://192.168.76.71/tuannt/check_mk/agents/check-mk-agent-2.0.0p27-1.noarch.rpm
+wget http://192.168.76.76/TuanNT/check_mk/agents/check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
-![](../image/agnet_3.png)
+
 
 **<h2>Bước 4 : Cấp quyền thực thi cho file vừa download**</h2>
 
 ```
 chmod +x check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
-![](../image/agnet_4.png)
+
 
 **<h2>Bước 5 : Cài đặt agent**</h2>
 
@@ -88,7 +87,7 @@ chmod +x check-mk-agent-2.0.0p27-1.noarch.rpm
 rpm -ivh check-mk-agent-2.0.0p27-1.noarch.rpm
 ```
 
-or
+or Ubuntu
 
 ```
 dpkg -i check-mk-agent_2.0.0p27-1_all.deb
@@ -100,7 +99,7 @@ dpkg -i check-mk-agent_2.0.0p27-1_all.deb
 yum install xinetd -y
 ```
 
-or
+or Ubuntu
 
 ```
 apt-get install xinetd
@@ -131,14 +130,14 @@ Mở file tìm đến các dòng và sửa các thông số sau :
 Gõ `setnu` và trỏ đến các dòng 8,31,38
 
 ```
-only_from      = 192.168.76.71
+only_from      = 192.168.76.76
 disable        = 0
 port           = 6556
 ```
 
-**192.168.76.1** : là địa chỉ máy server Check_MK
+**192.168.76.76** : là địa chỉ máy server Check_MK
 
-![](../image/agnet_6.png)
+![Imgur](https://i.imgur.com/Q3Y4utc.png)
 
 **<h2>Bước 10 : Kiểm tra port mặc định của Check_MK sử dụng để giám sát**</h2>
 
