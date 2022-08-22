@@ -10,13 +10,13 @@ IP Planning
 
 ## 2. Cài đặt Check_Mk server
 
-#### Cài đặt ``wget``
+#### Bước 1 : Cài đặt ``wget``
 
 ```
 yum install -y epel-release wget
 ```
 
-#### Download file cài đặt
+#### Bước 2 : Download file cài đặt
 
 Tải file cài đặt check_MK 2.0:
 
@@ -30,14 +30,15 @@ wget https://download.checkmk.com/checkmk/..../....
 wget https://download.checkmk.com/checkmk/2.0.0p27/check-mk-raw-2.0.0p27-el7-38.x86_64.rpm
 ```
 **khi cài đặt chú ý phiên bản agent đang cài đặt ở đây là bản 2.0 p27**
-Cài đặt CheckMK
+
+#### Bước 3 :Cài đặt CheckMK
 
 ```
 yum install -y check-mk-raw-2.0.0p27-el7-38.x86_64.rpm
 ```
 **khi cài đặt chú ý phiên bản agent đang cài đặt ở đây là bản 2.0 p27**
 
-Tạo một site 
+#### Bước 4 : Tạo một site 
 
 `omd create  my_site `
 
@@ -47,13 +48,13 @@ Tạo một site
 omd create TuanNT
 ```
 
-Khởi động site
+#### Bước 5 : Khởi động site
 
 ```
 omd start TuanNT
 ```
 
-Đổi mật khẩu cho User **cmkadmin**
+#### Bước 6 : Đổi mật khẩu cho User **cmkadmin**
 
 ```
 su - TuanNT
@@ -72,14 +73,14 @@ Updating password for user cmkadmin
 
 Quay lại User **root** để thực hiện tiếp câu lệnh (`Ctrl` + `d`)
 
-Mở Port cho Http
+#### Bước 7 : Mở Port cho Http
 
 ```
 firewall-cmd --permanent --add-port=80/tcp
 firewall-cmd --reload
 ```
 
-Tắt SELinux
+#### Bước 8 : Tắt SELinux
 
 ```
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
@@ -87,10 +88,16 @@ sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 setenforce 0
 ```
 
-Sau khi cài đặt truy cập vào trình duyệt : chorome, firefox,... 
+Sau khi cài đặt truy cập vào trình duyệt : chorme, firefox,... 
 
 
-**Đăng nhập và truy cập vào bằng user như trên**  :
+#### Bước 9 : **Đăng nhập và truy cập vào bằng user như trên**  :
+
+Ví dụ : 
+
+```
+http://192.168.76.76/TuanNT
+```
 
 ![](../image/MK_setup_3.png)
 
