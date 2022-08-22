@@ -20,7 +20,9 @@ IP Planning
 ## 2. Cài đặt Check_Mk server
 
 
-**<h2>Lưu ý trước khi cài đặt :</h2>**
+**Lưu ý trước khi cài đặt :**
+
+<h2>Update máy chủ trước khi cài đặt để tránh lỗi</h2>
 
 Các câu lệnh đang được thực hiện **Root** trên Ubuntu.
 
