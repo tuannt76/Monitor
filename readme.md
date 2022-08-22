@@ -14,7 +14,7 @@
 
 <h2>Thực hành Check_MK</h2>
 
-1.1 [Cài đặt Check_MK server CentOS_7](docs/Set_up_check_MK_C7.md)
+1.1 [Cài đặt Check_MK server CentOS_7](Check_MK/docs/Set_up_check_MK_C7.md)
 
 1.2 [Cài đặt Check_Mk Ubuntu_18_04](Check_MK/docs/Set_UP_check_Mk_U18.md)
 
