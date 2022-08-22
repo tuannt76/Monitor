@@ -1,6 +1,6 @@
-# Cài đặt agent của Check_MK trên CentOS-7
+# Cài đặt agent của Check_MK trên Windows
 
-- [Cài đặt agent của Check_MK trên CentOS-7](#cài-đặt-agent-của-check_mk-trên-centos-7)
+- [Cài đặt agent của Check_MK trên Windows](#cài-đặt-agent-của-check_mk-trên-windows)
   - [**1. Mô hình mạng**](#1-mô-hình-mạng)
   - [**2. Các bước thực hiện**](#2-các-bước-thực-hiện)
 
@@ -10,8 +10,6 @@
 Mô hình mạng :
 
 ![Imgur](https://i.imgur.com/ohova46.png)
-
-
 
 IPplanning:
 
