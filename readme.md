@@ -1,5 +1,7 @@
 # <h1>**Ghi chép Check_MK**</h1>
 
+- `Checkmk` là phần mềm được phát triển bằng Python và C ++ để giám sát Cơ sở hạ tầng CNTT. Nó được sử dụng để giám sát máy chủ, ứng dụng, mạng, cơ sở hạ tầng đám mây, vùng chứa, lưu trữ, cơ sở dữ liệu và cảm biến môi trường.
+
 <h2>Lý thuyết Check_MK</h2>
 
 <img src= https://i.imgur.com/8UzUbok.png align=right width=35%>
