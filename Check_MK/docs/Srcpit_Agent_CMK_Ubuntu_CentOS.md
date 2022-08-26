@@ -1,9 +1,9 @@
 
 
-**Tài liệu hướng dẫn Cài đặt WordPress sử dụng script**
+**Tài liệu hướng dẫn Cài đặt Agent CheckMK sử dụng script**
 
 
-*Thực hiện trên dòng lệnh Linux CentOS*
+*Thực hiện trên dòng lệnh Linux CentOS 7 hoặc Ubuntu*
 
 **Bước 1**: Tải file script
 Thực hiện lệnh sau
