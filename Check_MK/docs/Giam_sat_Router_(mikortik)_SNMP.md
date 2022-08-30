@@ -56,8 +56,9 @@ Trước khi cài ta cần kiểm tra xem router có SNMP chưa :
 Thực hiện kiểm tra router trên **server check_Mk**  :
 
 ```
-snmpwalk -v2c -c public 192.168.77.135
+snmpwalk -v2c -c public 192.168.76.88
 ```
+
 
 ![Imgur](https://i.imgur.com/jAaKUGL.png)
 
