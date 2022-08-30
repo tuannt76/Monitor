@@ -60,6 +60,10 @@ Bước 1 : Truy cập vào đường dẫn theo hình :
 Bước 2 : Chọn các dịch vụ ấn cần giám sát :
 ![Imgur](https://i.imgur.com/iUw73ac.png)
 
+Nhớ thêm comutiny vào dòng SNMP credentials 
+
+comutiny ở bài lab này là "public"
+
 Bước 3 : Sau đó Fix all :
 
 ![Imgur](https://i.imgur.com/jMhvF8g.png)
