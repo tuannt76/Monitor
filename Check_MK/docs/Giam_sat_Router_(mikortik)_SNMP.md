@@ -31,20 +31,23 @@ Trước khi thực hiện việc giám sát ta cần **cấu hình mikotik** v�
 2. NAT để cho mikotik có thể ping được ra ngoài internet (có thể kiểm tra ping đơn giản đến vmnet8).
 3. setup SNMP cho Router Mikotik
 
-Cấu hình SNMP trên Mikrotik
+
+
+## Cấu hình SNMP trên Mikrotik
 
 Lệnh cấu hình SNMP trên SW :
 Lệnh trên switch
-==================
+
 Ví dụ :
+```
 snmp-server community “public” ro
 snmp-server enable traps snmp
 snmp-server contact "public"
 snmp-server location "public"
-snmp-server host 10.0.11.61 version 2c public udp-port 162
+snmp-server host 192.168.76.76 version 2c public udp-port 162
 show snmp
-
-
+```
+địa chỉ IP 192.168.76.76 là địa chỉ IP của checkMk server
 
 ## Các bước cài check_MK để giám sát switch,Router qua giao thức SNMP :
 
