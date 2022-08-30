@@ -11,14 +11,14 @@ Thực hiện lệnh sau
 ```
 yum update -y
 yum install wget -y
-wget https://raw.githubusercontent.com/tuannt76/Monitoring/main/Check_MK/CheckMK_Agent.sh
+wget https://raw.githubusercontent.com/tuannt76/Monitoring/main/Check_MK/docs/CheckMK_Agent.sh
 ```
 or Ubuntu
 ```
 apt update
 apt upgrade
 apt install wget
-wget https://raw.githubusercontent.com/tuannt76/Monitoring/main/Check_MK/CheckMK_Agent.sh
+wget https://raw.githubusercontent.com/tuannt76/Monitoring/main/Check_MK/docs/CheckMK_Agent.sh
 
 ```
 
