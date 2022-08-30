@@ -1,8 +1,12 @@
 
 # Giám sát Router bằng SNMP :
 
+Tham khảo Trước bài viết 
 
-Ở bài viết này ta sẽ thực hiện lab giám sát router Mikrotik bằng giao thức SNMP...
+[Cấu hình SNMP để CheckMK giám sát bằng SNMP](https://docs.google.com/document/d/1TbI46OWf7iUFGMwfoPauLQ1WwGwiToKuvA7H_lMTpxM/edit?usp=sharing)
+
+
+Ở bài viết này ta sẽ ```thực hiện lab``` giám sát router Mikrotik bằng giao thức SNMP...
 
 Để thực hiện bài lab ta cần dựng phần mền giả lập EVE-NG
 
@@ -68,6 +72,3 @@ Check_Mk tự động gửi cảnh báo :
 
 ![Imgur](https://i.imgur.com/gmnaWrM.png)
 
-Tham khảo thêm bài viết 
-
-[Cấu hình SNMP để CheckMK giám sát bằng SNMP](https://docs.google.com/document/d/1TbI46OWf7iUFGMwfoPauLQ1WwGwiToKuvA7H_lMTpxM/edit?usp=sharing)
