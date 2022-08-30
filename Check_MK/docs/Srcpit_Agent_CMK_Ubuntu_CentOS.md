@@ -16,7 +16,8 @@ wget https://raw.githubusercontent.com/tuannt76/Monitoring/main/Check_MK/CheckMK
 or Ubuntu
 ```
 apt update
-apt wget
+apt upgrade
+apt install wget
 wget https://raw.githubusercontent.com/tuannt76/Monitoring/main/Check_MK/CheckMK_Agent.sh
 
 ```
