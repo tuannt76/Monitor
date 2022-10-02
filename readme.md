@@ -26,8 +26,6 @@
 
 3 [Hướng dẫn add host để check MK giám sát](docs/../Check_MK/docs/add_host_CheckMk.md)
 
-3 [Hướng dẫn add host để server check MK giám sát ](Check_MK/docs/add_host_CheckMk.md)
-
 4 [Gửi cảnh báo đến Telegram](/Check_MK/docs/Send_telegram.md)
 
 5 [Gửi cảnh báo đến Gmail](Check_MK/docs/send_gmail.md)
