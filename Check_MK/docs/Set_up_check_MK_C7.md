@@ -78,13 +78,13 @@ su - TuanNT
 htpasswd -m etc/htpasswd cmkadmin
 ```
 
-`
-#Nhập mật khẩu cho user
+```
+Nhập mật khẩu cho user
 New password:
 Re-type new password:
 Updating password for user cmkadmin
 
-`
+```
 
 
 

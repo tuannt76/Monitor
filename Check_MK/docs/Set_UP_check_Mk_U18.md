@@ -24,11 +24,31 @@ IP Planning
 
 <h2>Update máy chủ trước khi cài đặt để tránh lỗi</h2>
 
+```
+yum update -y
+reboot 
+```
+
+
 Các câu lệnh đang được thực hiện **Root** trên Ubuntu.
 
 Thực hiện trên user thêm ``SU`` vào phía trước.
 
+
 Tải file cài đặt check_MK 2.0:
+
+Cú pháp :
+
+```
+wget https://download.checkmk.com/checkmk/..../....
+```
+Link trang chủ CheckMK để kiểm tra phiên bản trước khi cài đặt:
+
+```
+https://checkmk.com/download
+```
+
+Cài đặt bản CheckMK 2.0.0p23 :
 
 ```
 wget https://download.checkmk.com/checkmk/2.0.0p23/check-mk-raw-2.0.0p23_0.bionic_amd64.deb
