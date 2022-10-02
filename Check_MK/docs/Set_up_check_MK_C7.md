@@ -2,7 +2,7 @@
 
 Dựng check_MK lên 1 OS Centos 7
 
-![](../image/MK_setup_1.png)
+<img src= https://i.imgur.com/7SAdZdJ.png width=80%>
 
 IP Planning
 
