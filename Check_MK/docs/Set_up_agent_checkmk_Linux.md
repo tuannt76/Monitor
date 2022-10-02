@@ -9,7 +9,8 @@
 
 Mô hình mạng :
 
-![](../image/agent_0.png)
+
+<img src= https://i.imgur.com/AB7rZLv.png width=50%>
 
 
 IPplanning:

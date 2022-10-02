@@ -9,7 +9,8 @@
 
 Mô hình mạng :
 
-![Imgur](https://i.imgur.com/ohova46.png)
+<img src= https://i.imgur.com/fKoT2mJ.png width=50%>
+
 
 IPplanning:
 
