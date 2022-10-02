@@ -24,9 +24,9 @@
  
 2.2 [Hướng dẫn cài đặt agent của check MK trên Windows](Check_MK/docs/Set_up_agent_checkmk_Windows.md)
 
-3 [Hướng dẫn add host để check MK giám sát](docs/add_host_CheckMk.md)
+3 [Hướng dẫn add host để check MK giám sát](docs/../Check_MK/docs/add_host_CheckMk.md)
 
-3 [Hướng dẫn add host để server check MK giám sát ](Check_MK/docs/add_host_CheckMk_C7.md)
+3 [Hướng dẫn add host để server check MK giám sát ](Check_MK/docs/add_host_CheckMk.md)
 
 4 [Gửi cảnh báo đến Telegram](/Check_MK/docs/Send_telegram.md)
 
