@@ -1,4 +1,17 @@
+- [1.Mô hình triển khai](#1mô-hình-triển-khai)
+- [2. Cài đặt Check_Mk server](#2-cài-đặt-check_mk-server)
+    - [Bước 1 : Cài đặt ``wget``](#bước-1--cài-đặt-wget)
+    - [Bước 2 : Download file cài đặt](#bước-2--download-file-cài-đặt)
+    - [Bước 3 :Cài đặt CheckMK](#bước-3-cài-đặt-checkmk)
+    - [Bước 4 : Tạo một site](#bước-4--tạo-một-site)
+    - [Bước 5 : Khởi động site](#bước-5--khởi-động-site)
+    - [Bước 6 : Đổi mật khẩu cho User **cmkadmin**](#bước-6--đổi-mật-khẩu-cho-user-cmkadmin)
+    - [Bước 7 : Mở Port cho Http](#bước-7--mở-port-cho-http)
+    - [Bước 8 : Tắt SELinux](#bước-8--tắt-selinux)
+    - [Bước 9 : Đăng nhập](#bước-9--đăng-nhập)
+
 ## 1.Mô hình triển khai
+
 
 Dựng check_MK lên 1 OS Centos 7
 
@@ -108,8 +121,10 @@ setenforce 0
 Sau khi cài đặt truy cập vào trình duyệt : chorme, firefox,... 
 
 
-#### Bước 9 : **Đăng nhập và truy cập vào bằng user như trên**  :
+#### Bước 9 : Đăng nhập
 
+
+**Đăng nhập và truy cập vào bằng user như trên**
 Ví dụ : 
 
 ```
