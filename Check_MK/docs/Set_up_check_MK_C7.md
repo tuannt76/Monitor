@@ -122,4 +122,8 @@ http://192.168.76.76/TuanNT
 
 ![](../image/MK_setup_4.png)
 
+Bài viết tiếp theo : 
 
+[Hướng dẫn cài Agent trên máy Clinet linux ](Set_up_agent_checkmk_Linux.md)
+
+[Hướng dẫn cài Agent trên máy Clinet Windows](Set_up_agent_checkmk_Windows.md)
