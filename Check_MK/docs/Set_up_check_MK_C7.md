@@ -14,6 +14,13 @@ IP Planning
 
 <h2>Update máy chủ trước khi cài đặt để tránh lỗi</h2>
 
+```
+yum update -y
+reboot 
+```
+
+
+
 #### Bước 1 : Cài đặt ``wget``
 
 ```
@@ -29,10 +36,16 @@ Cú pháp :
 ```
 wget https://download.checkmk.com/checkmk/..../....
 ```
+Link trang chủ CheckMK để kiểm tra phiên bản trước khi cài đặt:
+
+```
+https://checkmk.com/download
+```
 
 ```
 wget https://download.checkmk.com/checkmk/2.0.0p27/check-mk-raw-2.0.0p27-el7-38.x86_64.rpm
 ```
+
 **khi cài đặt chú ý phiên bản agent đang cài đặt ở đây là bản 2.0 p27**
 
 #### Bước 3 :Cài đặt CheckMK
